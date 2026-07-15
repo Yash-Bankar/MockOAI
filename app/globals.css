@@ -1,0 +1,135 @@
+@import "tailwindcss";
+
+/* ──────────────────────────────────────────────────────────────────────────────
+   THEME 1 — Neo-Brutalism ("Graded Paper")
+   Default theme for every page except the exam interface.
+   ────────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  --paper: #FFF9EC;
+  --paper-alt: #FFF1D6;
+  --ink: #14140F;
+  --red-pen: #E0312B;
+  --highlighter: #FFD23F;
+  --pass-green: #1F9E5A;
+  --cobalt: #3454D1;
+
+  --shadow-brutal: 6px 6px 0 var(--ink);
+  --radius-brutal: 4px;
+  --border-brutal: 3px solid var(--ink);
+}
+
+/* ──────────────────────────────────────────────────────────────────────────────
+   THEME 2 — Minimal Clean
+   Scoped to the exam interface via .theme-exam wrapper.
+   Tokens live here so Phase 9 can consume them.
+   ────────────────────────────────────────────────────────────────────────────── */
+
+.theme-exam {
+  --exam-bg: #FAFAFA;
+  --exam-surface: #FFFFFF;
+  --exam-border: #E5E5E5;
+  --exam-text: #1A1A1A;
+  --exam-text-muted: #6B7280;
+  --exam-accent: #2563EB;
+  --exam-danger: #DC2626;
+  --exam-success: #16A34A;
+
+  --shadow-exam: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --radius-exam: 6px;
+  --border-exam: 1px solid var(--exam-border);
+}
+
+/* ──────────────────────────────────────────────────────────────────────────────
+   Tailwind v4 theme extensions
+   Maps CSS variables into Tailwind utility classes.
+   ────────────────────────────────────────────────────────────────────────────── */
+
+@theme inline {
+  /* Fonts */
+  --font-archivo-black: var(--font-archivo-black);
+  --font-space-grotesk: var(--font-space-grotesk);
+  --font-jetbrains-mono: var(--font-jetbrains-mono);
+
+  /* Neo-Brutalism colors */
+  --color-paper: var(--paper);
+  --color-paper-alt: var(--paper-alt);
+  --color-ink: var(--ink);
+  --color-red-pen: var(--red-pen);
+  --color-highlighter: var(--highlighter);
+  --color-pass-green: var(--pass-green);
+  --color-cobalt: var(--cobalt);
+
+  /* Exam theme colors */
+  --color-exam-bg: var(--exam-bg);
+  --color-exam-surface: var(--exam-surface);
+  --color-exam-border: var(--exam-border);
+  --color-exam-text: var(--exam-text);
+  --color-exam-text-muted: var(--exam-text-muted);
+  --color-exam-accent: var(--exam-accent);
+  --color-exam-danger: var(--exam-danger);
+  --color-exam-success: var(--exam-success);
+
+  /* Brutal shadow */
+  --shadow-brutal: var(--shadow-brutal);
+
+  /* Brutal radius */
+  --radius-brutal: var(--radius-brutal);
+}
+
+/* ──────────────────────────────────────────────────────────────────────────────
+   Base styles — Neo-Brutalism default
+   ────────────────────────────────────────────────────────────────────────────── */
+
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-space-grotesk), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ──────────────────────────────────────────────────────────────────────────────
+   Exam theme base overrides (when wrapped in .theme-exam)
+   ────────────────────────────────────────────────────────────────────────────── */
+
+.theme-exam body,
+.theme-exam {
+  background-color: var(--exam-bg);
+  color: var(--exam-text);
+  font-family: var(--font-space-grotesk), system-ui, sans-serif;
+}
+
+/* ──────────────────────────────────────────────────────────────────────────────
+   Stamp-press interaction — shared by all brutalist interactive elements
+   ────────────────────────────────────────────────────────────────────────────── */
+
+.stamp-press {
+  transition: transform 60ms ease, box-shadow 60ms ease;
+}
+
+.stamp-press:active {
+  transform: translate(4px, 4px);
+  box-shadow: none !important;
+}
+
+/* ──────────────────────────────────────────────────────────────────────────────
+   Scrollbar styling for brutalist theme
+   ────────────────────────────────────────────────────────────────────────────── */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--paper-alt);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--ink);
+  border: 2px solid var(--paper-alt);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--cobalt);
+}

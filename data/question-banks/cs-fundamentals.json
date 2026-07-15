@@ -1,0 +1,1504 @@
+{
+  "questions": [
+    {
+      "promptText": "Which of the following is NOT a built-in primitive data type in C?",
+      "options": [
+        {
+          "id": "a",
+          "text": "int"
+        },
+        {
+          "id": "b",
+          "text": "float"
+        },
+        {
+          "id": "c",
+          "text": "string"
+        },
+        {
+          "id": "d",
+          "text": "char"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "C has no built-in 'string' type; strings are represented as char arrays.",
+      "subType": "Basics of Programming",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "What is the output of: print(2 + 3 * 4) in Python?",
+      "options": [
+        {
+          "id": "a",
+          "text": "20"
+        },
+        {
+          "id": "b",
+          "text": "14"
+        },
+        {
+          "id": "c",
+          "text": "24"
+        },
+        {
+          "id": "d",
+          "text": "9"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Multiplication has higher precedence than addition: 3*4=12, then 2+12=14.",
+      "subType": "Basics of Programming",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "Which loop is guaranteed to execute at least once?",
+      "options": [
+        {
+          "id": "a",
+          "text": "for"
+        },
+        {
+          "id": "b",
+          "text": "while"
+        },
+        {
+          "id": "c",
+          "text": "do-while"
+        },
+        {
+          "id": "d",
+          "text": "none"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A do-while loop checks its condition after the first execution.",
+      "subType": "Basics of Programming",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "What does the '==' operator check in most programming languages?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Assignment"
+        },
+        {
+          "id": "b",
+          "text": "Equality"
+        },
+        {
+          "id": "c",
+          "text": "Inequality"
+        },
+        {
+          "id": "d",
+          "text": "Type conversion"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "'==' compares two values for equality.",
+      "subType": "Basics of Programming",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "What is the time complexity of accessing an element in an array by index?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O(n)"
+        },
+        {
+          "id": "b",
+          "text": "O(log n)"
+        },
+        {
+          "id": "c",
+          "text": "O(1)"
+        },
+        {
+          "id": "d",
+          "text": "O(n log n)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Array indexing is a direct memory offset calculation, done in constant time.",
+      "subType": "Basics of Programming",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "Which of the following is a valid variable name in most programming languages?",
+      "options": [
+        {
+          "id": "a",
+          "text": "2var"
+        },
+        {
+          "id": "b",
+          "text": "var_2"
+        },
+        {
+          "id": "c",
+          "text": "var-2"
+        },
+        {
+          "id": "d",
+          "text": "var 2"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Variable names typically can't start with a digit or contain spaces/hyphens.",
+      "subType": "Basics of Programming",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "What is recursion?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A loop that never ends"
+        },
+        {
+          "id": "b",
+          "text": "A function calling itself"
+        },
+        {
+          "id": "c",
+          "text": "A variable declared globally"
+        },
+        {
+          "id": "d",
+          "text": "A type of array"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Recursion is when a function calls itself to solve smaller instances of a problem.",
+      "subType": "Basics of Programming",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "Which keyword is used to define a constant in C++?",
+      "options": [
+        {
+          "id": "a",
+          "text": "final"
+        },
+        {
+          "id": "b",
+          "text": "const"
+        },
+        {
+          "id": "c",
+          "text": "static"
+        },
+        {
+          "id": "d",
+          "text": "readonly"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "'const' declares a variable whose value cannot be changed after initialization.",
+      "subType": "Basics of Programming",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "What is the output of 5 % 2 in most programming languages?",
+      "options": [
+        {
+          "id": "a",
+          "text": "0"
+        },
+        {
+          "id": "b",
+          "text": "1"
+        },
+        {
+          "id": "c",
+          "text": "2"
+        },
+        {
+          "id": "d",
+          "text": "2.5"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The modulo operator returns the remainder of the division: 5/2 leaves remainder 1.",
+      "subType": "Basics of Programming",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "Which data structure uses LIFO (Last In First Out) order?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Queue"
+        },
+        {
+          "id": "b",
+          "text": "Stack"
+        },
+        {
+          "id": "c",
+          "text": "Array"
+        },
+        {
+          "id": "d",
+          "text": "Linked List"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A stack removes the most recently added element first, i.e. LIFO.",
+      "subType": "Data Structures and Algorithms",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "What is the time complexity of binary search on a sorted array of n elements?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O(n)"
+        },
+        {
+          "id": "b",
+          "text": "O(log n)"
+        },
+        {
+          "id": "c",
+          "text": "O(n log n)"
+        },
+        {
+          "id": "d",
+          "text": "O(1)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Binary search halves the search space each step, giving O(log n).",
+      "subType": "Data Structures and Algorithms",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "Which sorting algorithm has the best average-case time complexity?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Bubble Sort"
+        },
+        {
+          "id": "b",
+          "text": "Merge Sort"
+        },
+        {
+          "id": "c",
+          "text": "Selection Sort"
+        },
+        {
+          "id": "d",
+          "text": "Insertion Sort"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Merge Sort has O(n log n) average case, better than the O(n^2) of the others listed.",
+      "subType": "Data Structures and Algorithms",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "In a singly linked list, what is the time complexity to insert a node at the beginning?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O(1)"
+        },
+        {
+          "id": "b",
+          "text": "O(n)"
+        },
+        {
+          "id": "c",
+          "text": "O(log n)"
+        },
+        {
+          "id": "d",
+          "text": "O(n^2)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Inserting at the head only requires updating the head pointer, a constant-time operation.",
+      "subType": "Data Structures and Algorithms",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "Which data structure is used to implement recursion internally?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Queue"
+        },
+        {
+          "id": "b",
+          "text": "Stack"
+        },
+        {
+          "id": "c",
+          "text": "Heap"
+        },
+        {
+          "id": "d",
+          "text": "Array"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Function calls are pushed onto a call stack, which manages recursive calls.",
+      "subType": "Data Structures and Algorithms",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "What is the worst-case time complexity of QuickSort?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O(n log n)"
+        },
+        {
+          "id": "b",
+          "text": "O(n)"
+        },
+        {
+          "id": "c",
+          "text": "O(n^2)"
+        },
+        {
+          "id": "d",
+          "text": "O(log n)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "QuickSort degrades to O(n^2) when pivot selection is consistently poor.",
+      "subType": "Data Structures and Algorithms",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "A complete binary tree with n nodes has a height of approximately:",
+      "options": [
+        {
+          "id": "a",
+          "text": "O(n)"
+        },
+        {
+          "id": "b",
+          "text": "O(log n)"
+        },
+        {
+          "id": "c",
+          "text": "O(n^2)"
+        },
+        {
+          "id": "d",
+          "text": "O(sqrt n)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A complete binary tree's height grows logarithmically with the number of nodes.",
+      "subType": "Data Structures and Algorithms",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "Which traversal of a binary search tree gives elements in sorted order?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Preorder"
+        },
+        {
+          "id": "b",
+          "text": "Postorder"
+        },
+        {
+          "id": "c",
+          "text": "Inorder"
+        },
+        {
+          "id": "d",
+          "text": "Level order"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Inorder traversal (left, root, right) visits BST nodes in ascending order.",
+      "subType": "Data Structures and Algorithms",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "What is the space complexity of an adjacency matrix representation of a graph with V vertices?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O(V)"
+        },
+        {
+          "id": "b",
+          "text": "O(V^2)"
+        },
+        {
+          "id": "c",
+          "text": "O(E)"
+        },
+        {
+          "id": "d",
+          "text": "O(V+E)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "An adjacency matrix stores a VxV grid regardless of the number of edges.",
+      "subType": "Data Structures and Algorithms",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "Which data structure follows FIFO (First In First Out) order?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stack"
+        },
+        {
+          "id": "b",
+          "text": "Queue"
+        },
+        {
+          "id": "c",
+          "text": "Tree"
+        },
+        {
+          "id": "d",
+          "text": "Graph"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A queue processes elements in the order they were added, i.e. FIFO.",
+      "subType": "Data Structures and Algorithms",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "What is the time complexity of inserting an element into a max-heap?",
+      "options": [
+        {
+          "id": "a",
+          "text": "O(1)"
+        },
+        {
+          "id": "b",
+          "text": "O(log n)"
+        },
+        {
+          "id": "c",
+          "text": "O(n)"
+        },
+        {
+          "id": "d",
+          "text": "O(n log n)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Inserting requires a 'bubble up' operation proportional to the tree's height.",
+      "subType": "Data Structures and Algorithms",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "In a hash table, what causes a collision?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Two keys mapping to the same index"
+        },
+        {
+          "id": "b",
+          "text": "An empty table"
+        },
+        {
+          "id": "c",
+          "text": "A table that is too large"
+        },
+        {
+          "id": "d",
+          "text": "Using a prime number for size"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A collision happens when the hash function maps two different keys to the same slot.",
+      "subType": "Data Structures and Algorithms",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "Which OOP concept allows a class to inherit properties from another class?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Encapsulation"
+        },
+        {
+          "id": "b",
+          "text": "Inheritance"
+        },
+        {
+          "id": "c",
+          "text": "Polymorphism"
+        },
+        {
+          "id": "d",
+          "text": "Abstraction"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Inheritance lets a class reuse fields and methods from a parent class.",
+      "subType": "OOPS",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "What is encapsulation in OOP?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hiding implementation details and exposing only necessary interfaces"
+        },
+        {
+          "id": "b",
+          "text": "Creating multiple classes"
+        },
+        {
+          "id": "c",
+          "text": "Overloading functions"
+        },
+        {
+          "id": "d",
+          "text": "Using loops efficiently"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Encapsulation bundles data and methods while restricting direct access to internals.",
+      "subType": "OOPS",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "What is method overriding?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Defining multiple methods with the same name but different parameters in the same class"
+        },
+        {
+          "id": "b",
+          "text": "A subclass providing a specific implementation of a method already defined in its superclass"
+        },
+        {
+          "id": "c",
+          "text": "Creating a new class"
+        },
+        {
+          "id": "d",
+          "text": "Hiding a variable"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Overriding lets a subclass redefine a method inherited from its parent.",
+      "subType": "OOPS",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "What is method overloading?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Redefining a method in a subclass"
+        },
+        {
+          "id": "b",
+          "text": "Multiple methods with the same name but different parameter lists in the same class"
+        },
+        {
+          "id": "c",
+          "text": "Creating an interface"
+        },
+        {
+          "id": "d",
+          "text": "Inheriting from multiple classes"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Overloading allows multiple methods in the same class to share a name with different signatures.",
+      "subType": "OOPS",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "Which OOP principle refers to showing only essential features and hiding the details?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abstraction"
+        },
+        {
+          "id": "b",
+          "text": "Inheritance"
+        },
+        {
+          "id": "c",
+          "text": "Polymorphism"
+        },
+        {
+          "id": "d",
+          "text": "Encapsulation"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Abstraction focuses on exposing only relevant details to the user.",
+      "subType": "OOPS",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "Can a constructor be inherited in most OOP languages like Java?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Yes, always"
+        },
+        {
+          "id": "b",
+          "text": "No, constructors are not inherited"
+        },
+        {
+          "id": "c",
+          "text": "Only static constructors"
+        },
+        {
+          "id": "d",
+          "text": "Only if declared public"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Constructors are tied to their own class and are not inherited by subclasses.",
+      "subType": "OOPS",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "What is a virtual function used for (e.g. in C++)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To achieve compile-time polymorphism"
+        },
+        {
+          "id": "b",
+          "text": "To achieve runtime polymorphism"
+        },
+        {
+          "id": "c",
+          "text": "To prevent inheritance"
+        },
+        {
+          "id": "d",
+          "text": "To declare constants"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Virtual functions enable dynamic dispatch, resolved at runtime based on the actual object type.",
+      "subType": "OOPS",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "What is an abstract class?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A class that cannot be instantiated and may contain abstract methods"
+        },
+        {
+          "id": "b",
+          "text": "A class with only static methods"
+        },
+        {
+          "id": "c",
+          "text": "A class with no methods"
+        },
+        {
+          "id": "d",
+          "text": "A final class"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Abstract classes define a partial implementation meant to be extended, not instantiated directly.",
+      "subType": "OOPS",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "In Java, which keyword is used to prevent a class from being inherited?",
+      "options": [
+        {
+          "id": "a",
+          "text": "static"
+        },
+        {
+          "id": "b",
+          "text": "final"
+        },
+        {
+          "id": "c",
+          "text": "private"
+        },
+        {
+          "id": "d",
+          "text": "abstract"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A class declared 'final' cannot be subclassed.",
+      "subType": "OOPS",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "What is the main function of an operating system's process scheduler?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Manage memory"
+        },
+        {
+          "id": "b",
+          "text": "Decide which process runs on the CPU next"
+        },
+        {
+          "id": "c",
+          "text": "Manage file storage"
+        },
+        {
+          "id": "d",
+          "text": "Handle network requests"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The scheduler determines the order and timing of process execution on the CPU.",
+      "subType": "Operating Systems",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "Which of the following is NOT a CPU scheduling algorithm?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Round Robin"
+        },
+        {
+          "id": "b",
+          "text": "FCFS"
+        },
+        {
+          "id": "c",
+          "text": "Shortest Job First"
+        },
+        {
+          "id": "d",
+          "text": "Binary Search"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Binary Search is a searching algorithm, not a CPU scheduling algorithm.",
+      "subType": "Operating Systems",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "What is a deadlock in an operating system?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A process running indefinitely fast"
+        },
+        {
+          "id": "b",
+          "text": "A situation where two or more processes are waiting indefinitely for each other's resources"
+        },
+        {
+          "id": "c",
+          "text": "A process that has finished executing"
+        },
+        {
+          "id": "d",
+          "text": "A memory leak"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A deadlock occurs when processes are stuck waiting on resources held by each other.",
+      "subType": "Operating Systems",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "What is the purpose of virtual memory?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To physically increase RAM"
+        },
+        {
+          "id": "b",
+          "text": "To allow execution of processes larger than physical memory using disk space"
+        },
+        {
+          "id": "c",
+          "text": "To speed up the CPU clock"
+        },
+        {
+          "id": "d",
+          "text": "To manage network connections"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Virtual memory uses disk space to extend the effective address space beyond physical RAM.",
+      "subType": "Operating Systems",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "Which of the following is a necessary condition for deadlock?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mutual exclusion"
+        },
+        {
+          "id": "b",
+          "text": "Preemption"
+        },
+        {
+          "id": "c",
+          "text": "Sequential execution"
+        },
+        {
+          "id": "d",
+          "text": "Single-threading"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Mutual exclusion is one of the four Coffman conditions required for deadlock.",
+      "subType": "Operating Systems",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "What is a thread?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A separate program"
+        },
+        {
+          "id": "b",
+          "text": "The smallest unit of execution within a process"
+        },
+        {
+          "id": "c",
+          "text": "A type of file system"
+        },
+        {
+          "id": "d",
+          "text": "A hardware component"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A thread is a lightweight unit of execution that shares a process's resources.",
+      "subType": "Operating Systems",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "What does 'thrashing' refer to in an OS?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Excessive paging causing high overhead and low CPU utilization"
+        },
+        {
+          "id": "b",
+          "text": "A CPU running too fast"
+        },
+        {
+          "id": "c",
+          "text": "A file system error"
+        },
+        {
+          "id": "d",
+          "text": "A network congestion issue"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Thrashing occurs when a system spends more time paging than executing useful work.",
+      "subType": "Operating Systems",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "Which memory management technique divides memory into fixed-size blocks?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paging"
+        },
+        {
+          "id": "b",
+          "text": "Segmentation"
+        },
+        {
+          "id": "c",
+          "text": "Compaction"
+        },
+        {
+          "id": "d",
+          "text": "Caching"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Paging divides memory into equal-sized fixed blocks called pages/frames.",
+      "subType": "Operating Systems",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "What is a semaphore used for?",
+      "options": [
+        {
+          "id": "a",
+          "text": "File compression"
+        },
+        {
+          "id": "b",
+          "text": "Synchronizing access to shared resources among processes"
+        },
+        {
+          "id": "c",
+          "text": "Displaying error messages"
+        },
+        {
+          "id": "d",
+          "text": "Managing network packets"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A semaphore is a synchronization tool used to control access to shared resources.",
+      "subType": "Operating Systems",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "What does DNS stand for?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Domain Name System"
+        },
+        {
+          "id": "b",
+          "text": "Data Network Service"
+        },
+        {
+          "id": "c",
+          "text": "Digital Network Server"
+        },
+        {
+          "id": "d",
+          "text": "Domain Network Security"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "DNS translates human-readable domain names into IP addresses.",
+      "subType": "Network Basics",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "Which layer of the OSI model is responsible for routing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data Link"
+        },
+        {
+          "id": "b",
+          "text": "Network"
+        },
+        {
+          "id": "c",
+          "text": "Transport"
+        },
+        {
+          "id": "d",
+          "text": "Session"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The Network layer handles logical addressing and routing of packets.",
+      "subType": "Network Basics",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "What is the default port number for HTTP?",
+      "options": [
+        {
+          "id": "a",
+          "text": "21"
+        },
+        {
+          "id": "b",
+          "text": "25"
+        },
+        {
+          "id": "c",
+          "text": "80"
+        },
+        {
+          "id": "d",
+          "text": "443"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "HTTP traffic conventionally uses port 80 by default.",
+      "subType": "Network Basics",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "Which protocol is used to send email?",
+      "options": [
+        {
+          "id": "a",
+          "text": "FTP"
+        },
+        {
+          "id": "b",
+          "text": "SMTP"
+        },
+        {
+          "id": "c",
+          "text": "HTTP"
+        },
+        {
+          "id": "d",
+          "text": "SNMP"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "SMTP (Simple Mail Transfer Protocol) is used for sending email.",
+      "subType": "Network Basics",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "What does TCP guarantee that UDP does not?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Faster transmission"
+        },
+        {
+          "id": "b",
+          "text": "Reliable, ordered delivery of data"
+        },
+        {
+          "id": "c",
+          "text": "Lower overhead"
+        },
+        {
+          "id": "d",
+          "text": "Broadcast capability"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "TCP is connection-oriented and ensures reliable, ordered delivery, unlike UDP.",
+      "subType": "Network Basics",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "What is the purpose of an IP address?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To identify a device uniquely on a network"
+        },
+        {
+          "id": "b",
+          "text": "To encrypt data"
+        },
+        {
+          "id": "c",
+          "text": "To compress files"
+        },
+        {
+          "id": "d",
+          "text": "To manage hardware drivers"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "An IP address uniquely identifies a device on a network for communication.",
+      "subType": "Network Basics",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "What is the main goal of unit testing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Test the entire system end-to-end"
+        },
+        {
+          "id": "b",
+          "text": "Test individual components or functions in isolation"
+        },
+        {
+          "id": "c",
+          "text": "Test the user interface only"
+        },
+        {
+          "id": "d",
+          "text": "Test network latency"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Unit testing verifies that individual pieces of code work correctly in isolation.",
+      "subType": "Testing Basics",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "What is regression testing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Testing a system for the first time"
+        },
+        {
+          "id": "b",
+          "text": "Re-testing a system after changes to ensure existing functionality still works"
+        },
+        {
+          "id": "c",
+          "text": "Testing only new features"
+        },
+        {
+          "id": "d",
+          "text": "Testing hardware compatibility"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Regression testing confirms that recent changes haven't broken existing functionality.",
+      "subType": "Testing Basics",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "What is the difference between black-box and white-box testing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Black-box tests internal code structure, white-box tests functionality without knowing internals"
+        },
+        {
+          "id": "b",
+          "text": "Black-box tests functionality without knowing internal code, white-box tests based on internal code structure"
+        },
+        {
+          "id": "c",
+          "text": "They are the same"
+        },
+        {
+          "id": "d",
+          "text": "Black-box is only for hardware"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Black-box testing focuses on inputs/outputs; white-box testing examines internal logic.",
+      "subType": "Testing Basics",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "What is a test case?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A bug report"
+        },
+        {
+          "id": "b",
+          "text": "A set of conditions and inputs used to determine if a system works as expected"
+        },
+        {
+          "id": "c",
+          "text": "A programming language"
+        },
+        {
+          "id": "d",
+          "text": "A type of database"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A test case specifies inputs, execution steps, and expected results for verification.",
+      "subType": "Testing Basics",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "What is the purpose of integration testing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "To test individual functions"
+        },
+        {
+          "id": "b",
+          "text": "To test the interaction between combined modules or components"
+        },
+        {
+          "id": "c",
+          "text": "To test only the database"
+        },
+        {
+          "id": "d",
+          "text": "To test the user manual"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Integration testing verifies that different modules work correctly together.",
+      "subType": "Testing Basics",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "What does 'code coverage' measure?",
+      "options": [
+        {
+          "id": "a",
+          "text": "The number of bugs found"
+        },
+        {
+          "id": "b",
+          "text": "The percentage of source code executed during testing"
+        },
+        {
+          "id": "c",
+          "text": "The speed of code execution"
+        },
+        {
+          "id": "d",
+          "text": "The number of lines of code written"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Code coverage quantifies how much of the source code is exercised by tests.",
+      "subType": "Testing Basics",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "What is a 'false positive' in testing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A test that incorrectly reports a failure when there isn't one"
+        },
+        {
+          "id": "b",
+          "text": "A test that correctly passes"
+        },
+        {
+          "id": "c",
+          "text": "A test that is skipped"
+        },
+        {
+          "id": "d",
+          "text": "A test that takes too long"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A false positive incorrectly flags working code as broken.",
+      "subType": "Testing Basics",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "What is smoke testing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Detailed testing of every feature"
+        },
+        {
+          "id": "b",
+          "text": "A quick, preliminary test to check if the critical functions of a build work"
+        },
+        {
+          "id": "c",
+          "text": "Testing under high temperature conditions"
+        },
+        {
+          "id": "d",
+          "text": "Testing only the UI"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Smoke testing is a fast sanity check on core functionality before deeper testing.",
+      "subType": "Testing Basics",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "In Agile development, when is testing typically performed?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Only at the end of the project"
+        },
+        {
+          "id": "b",
+          "text": "Continuously throughout development, alongside coding"
+        },
+        {
+          "id": "c",
+          "text": "Only before release"
+        },
+        {
+          "id": "d",
+          "text": "Testing is skipped in Agile"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Agile emphasizes continuous testing integrated throughout each development cycle.",
+      "subType": "Testing Basics",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "Which SQL keyword is used to retrieve data from a database?",
+      "options": [
+        {
+          "id": "a",
+          "text": "GET"
+        },
+        {
+          "id": "b",
+          "text": "SELECT"
+        },
+        {
+          "id": "c",
+          "text": "FETCH"
+        },
+        {
+          "id": "d",
+          "text": "EXTRACT"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "SELECT is the standard SQL statement for querying data.",
+      "subType": "RDBMS and SQL",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "What does 'PRIMARY KEY' ensure in a database table?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Data can be duplicated"
+        },
+        {
+          "id": "b",
+          "text": "Unique identification of each row and no NULL values"
+        },
+        {
+          "id": "c",
+          "text": "Faster network access"
+        },
+        {
+          "id": "d",
+          "text": "Data encryption"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "A primary key uniquely identifies each row and disallows NULLs.",
+      "subType": "RDBMS and SQL",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "Which SQL clause is used to filter records?",
+      "options": [
+        {
+          "id": "a",
+          "text": "WHERE"
+        },
+        {
+          "id": "b",
+          "text": "FILTER"
+        },
+        {
+          "id": "c",
+          "text": "HAVING"
+        },
+        {
+          "id": "d",
+          "text": "SORT"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The WHERE clause filters rows based on specified conditions.",
+      "subType": "RDBMS and SQL",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "What is normalization in database design?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Increasing data redundancy"
+        },
+        {
+          "id": "b",
+          "text": "Organizing data to reduce redundancy and improve integrity"
+        },
+        {
+          "id": "c",
+          "text": "Encrypting data"
+        },
+        {
+          "id": "d",
+          "text": "Deleting unused tables"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Normalization restructures tables to minimize redundancy and dependency issues.",
+      "subType": "RDBMS and SQL",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "Which type of JOIN returns all records from both tables, with NULLs where there is no match?",
+      "options": [
+        {
+          "id": "a",
+          "text": "INNER JOIN"
+        },
+        {
+          "id": "b",
+          "text": "LEFT JOIN"
+        },
+        {
+          "id": "c",
+          "text": "FULL OUTER JOIN"
+        },
+        {
+          "id": "d",
+          "text": "CROSS JOIN"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "A FULL OUTER JOIN combines all rows from both tables, filling unmatched sides with NULL.",
+      "subType": "RDBMS and SQL",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "What does ACID stand for in the context of database transactions?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Atomicity, Consistency, Isolation, Durability"
+        },
+        {
+          "id": "b",
+          "text": "Accuracy, Consistency, Integrity, Durability"
+        },
+        {
+          "id": "c",
+          "text": "Atomicity, Concurrency, Isolation, Data"
+        },
+        {
+          "id": "d",
+          "text": "Availability, Consistency, Isolation, Durability"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "ACID describes the four key guarantees of reliable database transactions.",
+      "subType": "RDBMS and SQL",
+      "difficulty": "hard"
+    }
+  ]
+}

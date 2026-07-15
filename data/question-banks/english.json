@@ -1,0 +1,1504 @@
+{
+  "questions": [
+    {
+      "promptText": "She has been living in Mumbai ____ 2015.",
+      "options": [
+        {
+          "id": "a",
+          "text": "for"
+        },
+        {
+          "id": "b",
+          "text": "since"
+        },
+        {
+          "id": "c",
+          "text": "from"
+        },
+        {
+          "id": "d",
+          "text": "at"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "'Since' is used with a specific point in time; 'for' would be used with a duration.",
+      "subType": "Fill in the Blank",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "He is good ____ mathematics.",
+      "options": [
+        {
+          "id": "a",
+          "text": "at"
+        },
+        {
+          "id": "b",
+          "text": "in"
+        },
+        {
+          "id": "c",
+          "text": "on"
+        },
+        {
+          "id": "d",
+          "text": "for"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "'Good at' is the standard idiomatic preposition.",
+      "subType": "Fill in the Blank",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "Neither the manager nor the employees ____ aware of the new policy.",
+      "options": [
+        {
+          "id": "a",
+          "text": "was"
+        },
+        {
+          "id": "b",
+          "text": "were"
+        },
+        {
+          "id": "c",
+          "text": "is"
+        },
+        {
+          "id": "d",
+          "text": "has been"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "With 'neither...nor', the verb agrees with the nearer subject ('employees', plural).",
+      "subType": "Fill in the Blank",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "The train arrived ____ time despite the delay.",
+      "options": [
+        {
+          "id": "a",
+          "text": "in"
+        },
+        {
+          "id": "b",
+          "text": "on"
+        },
+        {
+          "id": "c",
+          "text": "at"
+        },
+        {
+          "id": "d",
+          "text": "by"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "'On time' means punctual/as scheduled.",
+      "subType": "Fill in the Blank",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "She insisted ____ paying the bill.",
+      "options": [
+        {
+          "id": "a",
+          "text": "on"
+        },
+        {
+          "id": "b",
+          "text": "at"
+        },
+        {
+          "id": "c",
+          "text": "for"
+        },
+        {
+          "id": "d",
+          "text": "with"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "'Insist on' is the correct idiomatic preposition.",
+      "subType": "Fill in the Blank",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "He is allergic ____ peanuts.",
+      "options": [
+        {
+          "id": "a",
+          "text": "with"
+        },
+        {
+          "id": "b",
+          "text": "to"
+        },
+        {
+          "id": "c",
+          "text": "from"
+        },
+        {
+          "id": "d",
+          "text": "for"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "'Allergic to' is the fixed preposition.",
+      "subType": "Fill in the Blank",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "They congratulated him ____ his success.",
+      "options": [
+        {
+          "id": "a",
+          "text": "for"
+        },
+        {
+          "id": "b",
+          "text": "on"
+        },
+        {
+          "id": "c",
+          "text": "at"
+        },
+        {
+          "id": "d",
+          "text": "with"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "'Congratulate someone on something' is the standard usage.",
+      "subType": "Fill in the Blank",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "The committee ____ yet to decide on the matter.",
+      "options": [
+        {
+          "id": "a",
+          "text": "is"
+        },
+        {
+          "id": "b",
+          "text": "are"
+        },
+        {
+          "id": "c",
+          "text": "were"
+        },
+        {
+          "id": "d",
+          "text": "have"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "'Committee' is treated as a singular collective noun here.",
+      "subType": "Fill in the Blank",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "She apologized ____ being late.",
+      "options": [
+        {
+          "id": "a",
+          "text": "for"
+        },
+        {
+          "id": "b",
+          "text": "of"
+        },
+        {
+          "id": "c",
+          "text": "with"
+        },
+        {
+          "id": "d",
+          "text": "about"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "'Apologize for' is the correct preposition.",
+      "subType": "Fill in the Blank",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "The company's profits ____ significantly last quarter.",
+      "options": [
+        {
+          "id": "a",
+          "text": "increased"
+        },
+        {
+          "id": "b",
+          "text": "decreased slowly"
+        },
+        {
+          "id": "c",
+          "text": "remained"
+        },
+        {
+          "id": "d",
+          "text": "fell rapidly"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Context (no contradiction implied) supports a straightforward positive change.",
+      "subType": "FIB",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "His speech was so ____ that half the audience fell asleep.",
+      "options": [
+        {
+          "id": "a",
+          "text": "monotonous"
+        },
+        {
+          "id": "b",
+          "text": "engaging"
+        },
+        {
+          "id": "c",
+          "text": "brief"
+        },
+        {
+          "id": "d",
+          "text": "witty"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The audience falling asleep implies a dull, monotonous speech.",
+      "subType": "FIB",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "The scientist's theory was later ____ by new evidence.",
+      "options": [
+        {
+          "id": "a",
+          "text": "disproved"
+        },
+        {
+          "id": "b",
+          "text": "confirmed"
+        },
+        {
+          "id": "c",
+          "text": "ignored"
+        },
+        {
+          "id": "d",
+          "text": "published"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "'Later' + context of new evidence suggests the theory was shown false.",
+      "subType": "FIB",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "Despite the criticism, she remained ____ in her decision.",
+      "options": [
+        {
+          "id": "a",
+          "text": "resolute"
+        },
+        {
+          "id": "b",
+          "text": "hesitant"
+        },
+        {
+          "id": "c",
+          "text": "confused"
+        },
+        {
+          "id": "d",
+          "text": "apologetic"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "'Despite criticism' + 'remained' implies she stayed firm.",
+      "subType": "FIB",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "The negotiations ended in a ____ after both sides refused to compromise.",
+      "options": [
+        {
+          "id": "a",
+          "text": "deadlock"
+        },
+        {
+          "id": "b",
+          "text": "success"
+        },
+        {
+          "id": "c",
+          "text": "agreement"
+        },
+        {
+          "id": "d",
+          "text": "celebration"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Refusing to compromise leads to a stalemate, i.e. deadlock.",
+      "subType": "FIB",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "His explanation was ____ and left no room for doubt.",
+      "options": [
+        {
+          "id": "a",
+          "text": "lucid"
+        },
+        {
+          "id": "b",
+          "text": "vague"
+        },
+        {
+          "id": "c",
+          "text": "confusing"
+        },
+        {
+          "id": "d",
+          "text": "incomplete"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "'Left no room for doubt' implies clarity, i.e. lucid.",
+      "subType": "FIB",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "The team of researchers (a)/ have completed (b)/ their study (c)/ successfully. (d)",
+      "options": [
+        {
+          "id": "a",
+          "text": "(a)"
+        },
+        {
+          "id": "b",
+          "text": "(b)"
+        },
+        {
+          "id": "c",
+          "text": "(c)"
+        },
+        {
+          "id": "d",
+          "text": "(d)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "'Team' is a singular collective noun here, so it should be 'has completed'.",
+      "subType": "Error Detection",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "Each of the students (a)/ have submitted (b)/ their assignments (c)/ on time. (d)",
+      "options": [
+        {
+          "id": "a",
+          "text": "(a)"
+        },
+        {
+          "id": "b",
+          "text": "(b)"
+        },
+        {
+          "id": "c",
+          "text": "(c)"
+        },
+        {
+          "id": "d",
+          "text": "(d)"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "'Each' takes a singular verb: 'has submitted'.",
+      "subType": "Error Detection",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "She don't like (a)/ to travel alone (b)/ especially at night. (c)/ No error (d)",
+      "options": [
+        {
+          "id": "a",
+          "text": "(a)"
+        },
+        {
+          "id": "b",
+          "text": "(b)"
+        },
+        {
+          "id": "c",
+          "text": "(c)"
+        },
+        {
+          "id": "d",
+          "text": "No error"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Third person singular subject 'She' requires 'doesn't', not 'don't'.",
+      "subType": "Error Detection",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "One of the boys (a)/ were late (b)/ for the morning assembly. (c)/ No error (d)",
+      "options": [
+        {
+          "id": "a",
+          "text": "(a)"
+        },
+        {
+          "id": "b",
+          "text": "(b)"
+        },
+        {
+          "id": "c",
+          "text": "(c)"
+        },
+        {
+          "id": "d",
+          "text": "No error"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "'One of the boys' is singular, so it should be 'was late'.",
+      "subType": "Error Detection",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "The news of his resignation (a)/ were shocking (b)/ to everyone in the office. (c)/ No error (d)",
+      "options": [
+        {
+          "id": "a",
+          "text": "(a)"
+        },
+        {
+          "id": "b",
+          "text": "(b)"
+        },
+        {
+          "id": "c",
+          "text": "(c)"
+        },
+        {
+          "id": "d",
+          "text": "No error"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "'News' is treated as singular, so 'was shocking' is correct.",
+      "subType": "Error Detection",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "Neither of the answers (a)/ are correct (b)/ according to the answer key. (c)/ No error (d)",
+      "options": [
+        {
+          "id": "a",
+          "text": "(a)"
+        },
+        {
+          "id": "b",
+          "text": "(b)"
+        },
+        {
+          "id": "c",
+          "text": "(c)"
+        },
+        {
+          "id": "d",
+          "text": "No error"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "'Neither' takes a singular verb: 'is correct'.",
+      "subType": "Error Detection",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "He is one of the best player (a)/ in the team (b)/ this season. (c)/ No error (d)",
+      "options": [
+        {
+          "id": "a",
+          "text": "(a)"
+        },
+        {
+          "id": "b",
+          "text": "(b)"
+        },
+        {
+          "id": "c",
+          "text": "(c)"
+        },
+        {
+          "id": "d",
+          "text": "No error"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "'One of the best' must be followed by a plural noun: 'players'.",
+      "subType": "Error Detection",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "The number of accidents (a)/ have increased (b)/ this year. (c)/ No error (d)",
+      "options": [
+        {
+          "id": "a",
+          "text": "(a)"
+        },
+        {
+          "id": "b",
+          "text": "(b)"
+        },
+        {
+          "id": "c",
+          "text": "(c)"
+        },
+        {
+          "id": "d",
+          "text": "No error"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "'The number of' takes a singular verb: 'has increased'.",
+      "subType": "Error Detection",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "She is more taller (a)/ than her brother (b)/ by two inches. (c)/ No error (d)",
+      "options": [
+        {
+          "id": "a",
+          "text": "(a)"
+        },
+        {
+          "id": "b",
+          "text": "(b)"
+        },
+        {
+          "id": "c",
+          "text": "(c)"
+        },
+        {
+          "id": "d",
+          "text": "No error"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "'Taller' is already comparative; 'more taller' is a double comparative error.",
+      "subType": "Error Detection",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "I have been knowing him (a)/ since we were (b)/ in school together. (c)/ No error (d)",
+      "options": [
+        {
+          "id": "a",
+          "text": "(a)"
+        },
+        {
+          "id": "b",
+          "text": "(b)"
+        },
+        {
+          "id": "c",
+          "text": "(c)"
+        },
+        {
+          "id": "d",
+          "text": "No error"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "'Know' is a stative verb and isn't used in continuous form; it should be 'have known'.",
+      "subType": "Error Detection",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "Everyone of the participants (a)/ were given (b)/ a certificate. (c)/ No error (d)",
+      "options": [
+        {
+          "id": "a",
+          "text": "(a)"
+        },
+        {
+          "id": "b",
+          "text": "(b)"
+        },
+        {
+          "id": "c",
+          "text": "(c)"
+        },
+        {
+          "id": "d",
+          "text": "No error"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "'Everyone' is singular, so it should be 'was given'.",
+      "subType": "Error Detection",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "Between you and I (a)/ this plan (b)/ will not work. (c)/ No error (d)",
+      "options": [
+        {
+          "id": "a",
+          "text": "(a)"
+        },
+        {
+          "id": "b",
+          "text": "(b)"
+        },
+        {
+          "id": "c",
+          "text": "(c)"
+        },
+        {
+          "id": "d",
+          "text": "No error"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "'Between' is a preposition and takes the objective case: 'you and me'.",
+      "subType": "Error Detection",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "The manager along with his employees are attending the seminar.",
+      "options": [
+        {
+          "id": "a",
+          "text": "are attending"
+        },
+        {
+          "id": "b",
+          "text": "is attending"
+        },
+        {
+          "id": "c",
+          "text": "were attending"
+        },
+        {
+          "id": "d",
+          "text": "have attended"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "'Along with' doesn't make the subject plural; the verb agrees with 'manager' (singular).",
+      "subType": "Sentence Correction",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "If I was you, I would accept the offer.",
+      "options": [
+        {
+          "id": "a",
+          "text": "was"
+        },
+        {
+          "id": "b",
+          "text": "were"
+        },
+        {
+          "id": "c",
+          "text": "am"
+        },
+        {
+          "id": "d",
+          "text": "had been"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Hypothetical/subjunctive mood requires 'were', regardless of subject.",
+      "subType": "Sentence Correction",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "She is one of the employee who always arrive on time.",
+      "options": [
+        {
+          "id": "a",
+          "text": "employee who always arrive"
+        },
+        {
+          "id": "b",
+          "text": "employees who always arrives"
+        },
+        {
+          "id": "c",
+          "text": "employees who always arrive"
+        },
+        {
+          "id": "d",
+          "text": "employee who always arrives"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "'One of the' requires a plural noun, and the relative clause verb agrees with that plural noun.",
+      "subType": "Sentence Correction",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "Not only he is talented but also hardworking.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Not only he is talented"
+        },
+        {
+          "id": "b",
+          "text": "Not only is he talented"
+        },
+        {
+          "id": "c",
+          "text": "Not only he was talented"
+        },
+        {
+          "id": "d",
+          "text": "Not only being talented"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "'Not only' at the start of a clause requires subject-verb inversion.",
+      "subType": "Sentence Correction",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "By the time we reach the station, the train will leave.",
+      "options": [
+        {
+          "id": "a",
+          "text": "will leave"
+        },
+        {
+          "id": "b",
+          "text": "will have left"
+        },
+        {
+          "id": "c",
+          "text": "has left"
+        },
+        {
+          "id": "d",
+          "text": "had left"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Future perfect tense is needed for an action completed before another future action.",
+      "subType": "Sentence Correction",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "He suggested me to consult a doctor.",
+      "options": [
+        {
+          "id": "a",
+          "text": "suggested me to consult"
+        },
+        {
+          "id": "b",
+          "text": "suggested that I consult"
+        },
+        {
+          "id": "c",
+          "text": "suggested I consulting"
+        },
+        {
+          "id": "d",
+          "text": "suggested to me consult"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "'Suggest' is not followed by 'object + to-infinitive'; it takes a 'that'-clause.",
+      "subType": "Sentence Correction",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "The reason he was late is because he missed the bus.",
+      "options": [
+        {
+          "id": "a",
+          "text": "is because"
+        },
+        {
+          "id": "b",
+          "text": "is that"
+        },
+        {
+          "id": "c",
+          "text": "was because"
+        },
+        {
+          "id": "d",
+          "text": "is due to"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "'The reason is that...' is the grammatically correct construction; 'reason is because' is redundant.",
+      "subType": "Sentence Correction",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "Scarcely had he left the office when it started raining.",
+      "options": [
+        {
+          "id": "a",
+          "text": "No correction required"
+        },
+        {
+          "id": "b",
+          "text": "Scarcely he had left"
+        },
+        {
+          "id": "c",
+          "text": "Scarcely did he left"
+        },
+        {
+          "id": "d",
+          "text": "Hardly he had left"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "This sentence correctly uses 'scarcely...had...when' with inversion.",
+      "subType": "Sentence Correction",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "Each of the boys have their own opinion.",
+      "options": [
+        {
+          "id": "a",
+          "text": "have their own opinion"
+        },
+        {
+          "id": "b",
+          "text": "has his own opinion"
+        },
+        {
+          "id": "c",
+          "text": "have his own opinion"
+        },
+        {
+          "id": "d",
+          "text": "has their own opinion"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "'Each' is singular, requiring 'has', and traditionally paired with a singular pronoun 'his'.",
+      "subType": "Sentence Correction",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "P: Finally, the results were released and celebrated across the campus.\nQ: The university announced a new exam pattern last year.\nR: Students initially resisted the change, fearing lower scores.\nS: Over time, however, most adapted well to the new format.",
+      "options": [
+        {
+          "id": "a",
+          "text": "QRSP"
+        },
+        {
+          "id": "b",
+          "text": "QRPS"
+        },
+        {
+          "id": "c",
+          "text": "PQRS"
+        },
+        {
+          "id": "d",
+          "text": "SRQP"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Logical flow: announcement (Q) -> resistance (R) -> adaptation (S) -> results celebrated (P).",
+      "subType": "Sentence Arrangement",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "P: This led to a significant drop in production costs.\nQ: The factory switched to automated machinery in 2020.\nR: As a result, profits rose sharply within a year.\nS: Workers were retrained to operate the new systems.",
+      "options": [
+        {
+          "id": "a",
+          "text": "QSPR"
+        },
+        {
+          "id": "b",
+          "text": "QPSR"
+        },
+        {
+          "id": "c",
+          "text": "SQPR"
+        },
+        {
+          "id": "d",
+          "text": "QRSP"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Switch to automation (Q) -> retraining (S) -> cost drop (P) -> profit rise (R).",
+      "subType": "Sentence Arrangement",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "P: Despite the odds, the team fought back valiantly.\nQ: The match started with the home team taking an early lead.\nR: Their opponents responded with two quick goals before halftime.\nS: In the end, the game ended in a thrilling draw.",
+      "options": [
+        {
+          "id": "a",
+          "text": "QRPS"
+        },
+        {
+          "id": "b",
+          "text": "QPRS"
+        },
+        {
+          "id": "c",
+          "text": "RQPS"
+        },
+        {
+          "id": "d",
+          "text": "QRSP"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Early lead (Q) -> opponents equalize (R) -> fightback (P) -> draw (S).",
+      "subType": "Sentence Arrangement",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "P: Consequently, several small businesses had to shut down.\nQ: The new tax policy was introduced amid much debate.\nR: It significantly raised operational costs for small firms.\nS: The government later revised the policy after public outcry.",
+      "options": [
+        {
+          "id": "a",
+          "text": "QRPS"
+        },
+        {
+          "id": "b",
+          "text": "QPRS"
+        },
+        {
+          "id": "c",
+          "text": "QRSP"
+        },
+        {
+          "id": "d",
+          "text": "RQPS"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Policy introduced (Q) -> raised costs (R) -> shutdowns (P) -> revision (S).",
+      "subType": "Sentence Arrangement",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "P: This made the region highly vulnerable to landslides.\nQ: Heavy deforestation occurred in the hilly areas over decades.\nR: The soil lost its ability to hold water during monsoons.\nS: Authorities have since launched a large-scale afforestation drive.",
+      "options": [
+        {
+          "id": "a",
+          "text": "QRPS"
+        },
+        {
+          "id": "b",
+          "text": "QPRS"
+        },
+        {
+          "id": "c",
+          "text": "RQPS"
+        },
+        {
+          "id": "d",
+          "text": "QRSP"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Deforestation (Q) -> soil degradation (R) -> vulnerability (P) -> afforestation response (S).",
+      "subType": "Sentence Arrangement",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "P: The plan was abandoned after initial trials failed.\nQ: Engineers proposed building a bridge across the river.\nR: A cheaper, tunnel-based alternative was then suggested.\nS: This alternative was accepted and completed successfully.",
+      "options": [
+        {
+          "id": "a",
+          "text": "QPRS"
+        },
+        {
+          "id": "b",
+          "text": "QRPS"
+        },
+        {
+          "id": "c",
+          "text": "PQRS"
+        },
+        {
+          "id": "d",
+          "text": "QPSR"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Proposal (Q) -> failed trials (P) -> alternative suggested (R) -> completed (S).",
+      "subType": "Sentence Arrangement",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "P: Sales, however, remained flat despite the campaign.\nQ: The company launched an aggressive marketing campaign.\nR: Analysts later found the ads targeted the wrong audience.\nS: A revised campaign was launched with better targeting.",
+      "options": [
+        {
+          "id": "a",
+          "text": "QPRS"
+        },
+        {
+          "id": "b",
+          "text": "QRPS"
+        },
+        {
+          "id": "c",
+          "text": "PQRS"
+        },
+        {
+          "id": "d",
+          "text": "QPSR"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Campaign launched (Q) -> flat sales (P) -> cause found (R) -> revised campaign (S).",
+      "subType": "Sentence Arrangement",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "P: As a result, the flight was delayed by three hours.\nQ: Heavy fog covered the airport early in the morning.\nR: Visibility dropped below the minimum safe level for landing.\nS: Passengers were informed through the airline's app.",
+      "options": [
+        {
+          "id": "a",
+          "text": "QRPS"
+        },
+        {
+          "id": "b",
+          "text": "QPRS"
+        },
+        {
+          "id": "c",
+          "text": "RQPS"
+        },
+        {
+          "id": "d",
+          "text": "QRSP"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Fog (Q) -> low visibility (R) -> delay (P) -> passengers informed (S).",
+      "subType": "Sentence Arrangement",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "P: The village finally got access to clean drinking water.\nQ: An NGO surveyed the village's water sources last year.\nR: They found the wells contaminated with industrial waste.\nS: A new filtration plant was installed within six months.",
+      "options": [
+        {
+          "id": "a",
+          "text": "QRSP"
+        },
+        {
+          "id": "b",
+          "text": "QRPS"
+        },
+        {
+          "id": "c",
+          "text": "RQSP"
+        },
+        {
+          "id": "d",
+          "text": "QSRP"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Survey (Q) -> contamination found (R) -> plant installed (S) -> clean water access (P).",
+      "subType": "Sentence Arrangement",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "A person who can speak many languages",
+      "options": [
+        {
+          "id": "a",
+          "text": "Polyglot"
+        },
+        {
+          "id": "b",
+          "text": "Linguist"
+        },
+        {
+          "id": "c",
+          "text": "Bilingual"
+        },
+        {
+          "id": "d",
+          "text": "Interpreter"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A 'polyglot' is someone fluent in several languages.",
+      "subType": "One Word Substitution",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "A place where birds are kept",
+      "options": [
+        {
+          "id": "a",
+          "text": "Aquarium"
+        },
+        {
+          "id": "b",
+          "text": "Aviary"
+        },
+        {
+          "id": "c",
+          "text": "Sanctuary"
+        },
+        {
+          "id": "d",
+          "text": "Zoo"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "An 'aviary' is a large enclosure specifically for birds.",
+      "subType": "One Word Substitution",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "One who is not easily discouraged",
+      "options": [
+        {
+          "id": "a",
+          "text": "Indefatigable"
+        },
+        {
+          "id": "b",
+          "text": "Lethargic"
+        },
+        {
+          "id": "c",
+          "text": "Timid"
+        },
+        {
+          "id": "d",
+          "text": "Docile"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "'Indefatigable' describes someone who is tireless and persistent.",
+      "subType": "One Word Substitution",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "A statement that contradicts itself",
+      "options": [
+        {
+          "id": "a",
+          "text": "Paradox"
+        },
+        {
+          "id": "b",
+          "text": "Irony"
+        },
+        {
+          "id": "c",
+          "text": "Anomaly"
+        },
+        {
+          "id": "d",
+          "text": "Contradiction"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A 'paradox' is a statement that seems self-contradictory but may hold truth.",
+      "subType": "One Word Substitution",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "One who loves mankind",
+      "options": [
+        {
+          "id": "a",
+          "text": "Philanthropist"
+        },
+        {
+          "id": "b",
+          "text": "Humanist"
+        },
+        {
+          "id": "c",
+          "text": "Altruist"
+        },
+        {
+          "id": "d",
+          "text": "Misanthrope"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "A 'philanthropist' is someone devoted to promoting the welfare of others.",
+      "subType": "One Word Substitution",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "Government by the few",
+      "options": [
+        {
+          "id": "a",
+          "text": "Oligarchy"
+        },
+        {
+          "id": "b",
+          "text": "Autocracy"
+        },
+        {
+          "id": "c",
+          "text": "Democracy"
+        },
+        {
+          "id": "d",
+          "text": "Aristocracy"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "'Oligarchy' specifically means rule by a small group of people.",
+      "subType": "One Word Substitution",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "Solar power has become one of the fastest-growing sources of electricity worldwide. Falling panel costs, government subsidies, and rising public awareness about climate change have all contributed to this growth. However, solar energy still faces challenges: it cannot be generated at night, and storing excess energy for later use remains expensive. Many countries are now investing in battery storage technology to address this limitation, aiming to make solar power a reliable, round-the-clock energy source.\n\nAccording to the passage, why has solar power grown rapidly?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Falling costs, subsidies, and climate awareness"
+        },
+        {
+          "id": "b",
+          "text": "Government mandates alone"
+        },
+        {
+          "id": "c",
+          "text": "Lack of alternative energy sources"
+        },
+        {
+          "id": "d",
+          "text": "Reduction in electricity demand"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The passage directly attributes growth to falling costs, subsidies, and climate awareness.",
+      "subType": "Reading Comprehension",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "Solar power has become one of the fastest-growing sources of electricity worldwide. Falling panel costs, government subsidies, and rising public awareness about climate change have all contributed to this growth. However, solar energy still faces challenges: it cannot be generated at night, and storing excess energy for later use remains expensive. Many countries are now investing in battery storage technology to address this limitation, aiming to make solar power a reliable, round-the-clock energy source.\n\nWhat is identified as a major limitation of solar energy?",
+      "options": [
+        {
+          "id": "a",
+          "text": "High panel manufacturing cost"
+        },
+        {
+          "id": "b",
+          "text": "Inability to generate power at night and expensive storage"
+        },
+        {
+          "id": "c",
+          "text": "Public resistance"
+        },
+        {
+          "id": "d",
+          "text": "Lack of government support"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The passage states solar can't be generated at night and storage is expensive.",
+      "subType": "Reading Comprehension",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "Solar power has become one of the fastest-growing sources of electricity worldwide. Falling panel costs, government subsidies, and rising public awareness about climate change have all contributed to this growth. However, solar energy still faces challenges: it cannot be generated at night, and storing excess energy for later use remains expensive. Many countries are now investing in battery storage technology to address this limitation, aiming to make solar power a reliable, round-the-clock energy source.\n\nWhat are countries doing to address this limitation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reducing solar installations"
+        },
+        {
+          "id": "b",
+          "text": "Investing in battery storage technology"
+        },
+        {
+          "id": "c",
+          "text": "Switching to wind power entirely"
+        },
+        {
+          "id": "d",
+          "text": "Increasing electricity prices"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The passage says countries are investing in battery storage technology.",
+      "subType": "Reading Comprehension",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "Urban migration has reshaped cities across the developing world. As people move from rural areas in search of better jobs and education, cities expand rapidly, often outpacing infrastructure development. This creates strain on housing, transportation, and sanitation systems. While migration boosts urban economies through cheap labor, it also widens the gap between planned growth and actual population needs, leading to the rise of informal settlements in many major cities.\n\nWhy do people migrate to urban areas, according to the passage?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Better jobs and education"
+        },
+        {
+          "id": "b",
+          "text": "Cheaper housing"
+        },
+        {
+          "id": "c",
+          "text": "Cleaner environment"
+        },
+        {
+          "id": "d",
+          "text": "Government relocation policies"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The passage states people move in search of better jobs and education.",
+      "subType": "Reading Comprehension",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "Urban migration has reshaped cities across the developing world. As people move from rural areas in search of better jobs and education, cities expand rapidly, often outpacing infrastructure development. This creates strain on housing, transportation, and sanitation systems. While migration boosts urban economies through cheap labor, it also widens the gap between planned growth and actual population needs, leading to the rise of informal settlements in many major cities.\n\nWhat problem does rapid urban migration create?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Decline in economic activity"
+        },
+        {
+          "id": "b",
+          "text": "Infrastructure struggling to keep pace with population growth"
+        },
+        {
+          "id": "c",
+          "text": "Reduction in job opportunities"
+        },
+        {
+          "id": "d",
+          "text": "Improved sanitation systems"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The passage says cities expand faster than infrastructure development.",
+      "subType": "Reading Comprehension",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "Urban migration has reshaped cities across the developing world. As people move from rural areas in search of better jobs and education, cities expand rapidly, often outpacing infrastructure development. This creates strain on housing, transportation, and sanitation systems. While migration boosts urban economies through cheap labor, it also widens the gap between planned growth and actual population needs, leading to the rise of informal settlements in many major cities.\n\nWhat is mentioned as a consequence of the gap between planned growth and population needs?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Decline in urban population"
+        },
+        {
+          "id": "b",
+          "text": "Rise of informal settlements"
+        },
+        {
+          "id": "c",
+          "text": "Lower cost of living"
+        },
+        {
+          "id": "d",
+          "text": "Reduced migration"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The passage directly states this gap leads to informal settlements.",
+      "subType": "Reading Comprehension",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "A recent workplace study found that employees who took short breaks every 90 minutes reported higher levels of sustained focus than those who worked continuously for long stretches. The study attributed this to the brain's limited capacity for uninterrupted attention, which tends to decline sharply after prolonged periods without rest. Companies that implemented structured break policies saw a measurable improvement in overall productivity, even though total working hours were reduced.\n\nWhat did the study find about employees taking regular short breaks?",
+      "options": [
+        {
+          "id": "a",
+          "text": "They reported lower focus"
+        },
+        {
+          "id": "b",
+          "text": "They reported higher sustained focus"
+        },
+        {
+          "id": "c",
+          "text": "They worked longer hours"
+        },
+        {
+          "id": "d",
+          "text": "They were less productive"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The passage states employees taking breaks reported higher sustained focus.",
+      "subType": "Reading Comprehension",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "A recent workplace study found that employees who took short breaks every 90 minutes reported higher levels of sustained focus than those who worked continuously for long stretches. The study attributed this to the brain's limited capacity for uninterrupted attention, which tends to decline sharply after prolonged periods without rest. Companies that implemented structured break policies saw a measurable improvement in overall productivity, even though total working hours were reduced.\n\nWhy does the brain's attention decline during long uninterrupted work periods?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Due to limited capacity for sustained attention"
+        },
+        {
+          "id": "b",
+          "text": "Due to lack of motivation"
+        },
+        {
+          "id": "c",
+          "text": "Due to poor lighting"
+        },
+        {
+          "id": "d",
+          "text": "Due to excessive breaks"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "The passage attributes this to the brain's limited capacity for uninterrupted attention.",
+      "subType": "Reading Comprehension",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "A recent workplace study found that employees who took short breaks every 90 minutes reported higher levels of sustained focus than those who worked continuously for long stretches. The study attributed this to the brain's limited capacity for uninterrupted attention, which tends to decline sharply after prolonged periods without rest. Companies that implemented structured break policies saw a measurable improvement in overall productivity, even though total working hours were reduced.\n\nWhat was the outcome for companies with structured break policies?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reduced productivity"
+        },
+        {
+          "id": "b",
+          "text": "No measurable change"
+        },
+        {
+          "id": "c",
+          "text": "Improved productivity despite fewer working hours"
+        },
+        {
+          "id": "d",
+          "text": "Increased employee turnover"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The passage states productivity improved even though working hours were reduced.",
+      "subType": "Reading Comprehension",
+      "difficulty": "hard"
+    }
+  ]
+}

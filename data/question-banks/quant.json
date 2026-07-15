@@ -1,0 +1,1504 @@
+{
+  "questions": [
+    {
+      "promptText": "What is 15% of 240?",
+      "options": [
+        {
+          "id": "a",
+          "text": "32"
+        },
+        {
+          "id": "b",
+          "text": "34"
+        },
+        {
+          "id": "c",
+          "text": "36"
+        },
+        {
+          "id": "d",
+          "text": "38"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "15% of 240 = 0.15 x 240 = 36.",
+      "subType": "Quant Math Ability",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "A train 150m long crosses a pole in 15 seconds. Find its speed in km/hr.",
+      "options": [
+        {
+          "id": "a",
+          "text": "30"
+        },
+        {
+          "id": "b",
+          "text": "32"
+        },
+        {
+          "id": "c",
+          "text": "36"
+        },
+        {
+          "id": "d",
+          "text": "40"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Speed = 150/15 = 10 m/s = 10 x 18/5 = 36 km/hr.",
+      "subType": "Quant Math Ability",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "If x+y=10 and x-y=4, find xy.",
+      "options": [
+        {
+          "id": "a",
+          "text": "18"
+        },
+        {
+          "id": "b",
+          "text": "20"
+        },
+        {
+          "id": "c",
+          "text": "21"
+        },
+        {
+          "id": "d",
+          "text": "24"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Solving gives x=7, y=3, so xy=21.",
+      "subType": "Quant Math Ability",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "The average of 5 numbers is 20. If one number is excluded, the average becomes 18. Find the excluded number.",
+      "options": [
+        {
+          "id": "a",
+          "text": "24"
+        },
+        {
+          "id": "b",
+          "text": "26"
+        },
+        {
+          "id": "c",
+          "text": "28"
+        },
+        {
+          "id": "d",
+          "text": "30"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sum of 5 numbers=100, sum of remaining 4=72, so excluded number=28.",
+      "subType": "Quant Math Ability",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "A shopkeeper marks an item 25% above cost price and gives a 10% discount. Find his profit percentage.",
+      "options": [
+        {
+          "id": "a",
+          "text": "10%"
+        },
+        {
+          "id": "b",
+          "text": "12.5%"
+        },
+        {
+          "id": "c",
+          "text": "15%"
+        },
+        {
+          "id": "d",
+          "text": "20%"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "CP=100, MP=125, SP=125x0.9=112.5, so profit=12.5%.",
+      "subType": "Quant Math Ability",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "Simple interest on Rs. 5000 at 8% per annum for 3 years is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "1000"
+        },
+        {
+          "id": "b",
+          "text": "1100"
+        },
+        {
+          "id": "c",
+          "text": "1200"
+        },
+        {
+          "id": "d",
+          "text": "1500"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "SI = (5000x8x3)/100 = 1200.",
+      "subType": "Quant Math Ability",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "Find the compound interest on Rs. 2000 at 10% per annum for 2 years, compounded annually.",
+      "options": [
+        {
+          "id": "a",
+          "text": "400"
+        },
+        {
+          "id": "b",
+          "text": "410"
+        },
+        {
+          "id": "c",
+          "text": "420"
+        },
+        {
+          "id": "d",
+          "text": "440"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Amount = 2000x1.1^2=2420, so CI=420.",
+      "subType": "Quant Math Ability",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "The ratio of two numbers is 3:5 and their sum is 96. Find the larger number.",
+      "options": [
+        {
+          "id": "a",
+          "text": "54"
+        },
+        {
+          "id": "b",
+          "text": "56"
+        },
+        {
+          "id": "c",
+          "text": "58"
+        },
+        {
+          "id": "d",
+          "text": "60"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "3x+5x=96 gives x=12, so the larger number = 5x=60.",
+      "subType": "Quant Math Ability",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "A can complete a work in 12 days and B in 18 days. Working together, how many days will they take?",
+      "options": [
+        {
+          "id": "a",
+          "text": "6"
+        },
+        {
+          "id": "b",
+          "text": "7.2"
+        },
+        {
+          "id": "c",
+          "text": "8"
+        },
+        {
+          "id": "d",
+          "text": "9"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Combined rate = 1/12+1/18 = 5/36 per day, so time = 36/5 = 7.2 days.",
+      "subType": "Quant Math Ability",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "Find the value of x if 2x + 3 = 15.",
+      "options": [
+        {
+          "id": "a",
+          "text": "4"
+        },
+        {
+          "id": "b",
+          "text": "5"
+        },
+        {
+          "id": "c",
+          "text": "6"
+        },
+        {
+          "id": "d",
+          "text": "7"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "2x=12, so x=6.",
+      "subType": "Quant Math Ability",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "A sum of money doubles itself in 8 years at simple interest. Find the rate of interest.",
+      "options": [
+        {
+          "id": "a",
+          "text": "10%"
+        },
+        {
+          "id": "b",
+          "text": "12.5%"
+        },
+        {
+          "id": "c",
+          "text": "15%"
+        },
+        {
+          "id": "d",
+          "text": "20%"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Since SI equals the principal, R = 100/8 = 12.5%.",
+      "subType": "Quant Math Ability",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "The perimeter of a rectangle is 60cm and its length is twice its breadth. Find the area.",
+      "options": [
+        {
+          "id": "a",
+          "text": "180"
+        },
+        {
+          "id": "b",
+          "text": "200"
+        },
+        {
+          "id": "c",
+          "text": "220"
+        },
+        {
+          "id": "d",
+          "text": "240"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "l+b=30 and l=2b give b=10, l=20, so area=200 sq cm.",
+      "subType": "Quant Math Ability",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "What is the probability of getting a sum of 7 when two dice are rolled?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1/12"
+        },
+        {
+          "id": "b",
+          "text": "1/6"
+        },
+        {
+          "id": "c",
+          "text": "1/4"
+        },
+        {
+          "id": "d",
+          "text": "1/3"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "There are 6 favorable outcomes out of 36 total, giving 6/36=1/6.",
+      "subType": "Quant Math Ability",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "If the cost price of 20 articles equals the selling price of 16 articles, find the profit percentage.",
+      "options": [
+        {
+          "id": "a",
+          "text": "20%"
+        },
+        {
+          "id": "b",
+          "text": "25%"
+        },
+        {
+          "id": "c",
+          "text": "30%"
+        },
+        {
+          "id": "d",
+          "text": "16.67%"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "CP of 20 = SP of 16 means SP per article = 1.25x CP, giving 25% profit.",
+      "subType": "Quant Math Ability",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "Find the next term: 5, 11, 19, 29, 41, ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "51"
+        },
+        {
+          "id": "b",
+          "text": "53"
+        },
+        {
+          "id": "c",
+          "text": "55"
+        },
+        {
+          "id": "d",
+          "text": "57"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Differences increase by 2 each time (6,8,10,12,14), so 41+14=55.",
+      "subType": "Quant Math Ability",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "A boat travels 30 km downstream in 2 hours and returns upstream in 3 hours. Find the speed of the boat in still water.",
+      "options": [
+        {
+          "id": "a",
+          "text": "10"
+        },
+        {
+          "id": "b",
+          "text": "11.5"
+        },
+        {
+          "id": "c",
+          "text": "12.5"
+        },
+        {
+          "id": "d",
+          "text": "15"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Downstream speed=15, upstream speed=10, so still-water speed=(15+10)/2=12.5 km/hr.",
+      "subType": "Quant Math Ability",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "The LCM of 12 and 18 is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "24"
+        },
+        {
+          "id": "b",
+          "text": "30"
+        },
+        {
+          "id": "c",
+          "text": "36"
+        },
+        {
+          "id": "d",
+          "text": "72"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The least common multiple of 12 and 18 is 36.",
+      "subType": "Quant Math Ability",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "The HCF of 24 and 36 is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "6"
+        },
+        {
+          "id": "b",
+          "text": "8"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "18"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The highest common factor of 24 and 36 is 12.",
+      "subType": "Quant Math Ability",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "A man's age is 4 times his son's age. After 20 years, his age will be twice his son's age. Find the son's current age.",
+      "options": [
+        {
+          "id": "a",
+          "text": "8"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "12"
+        },
+        {
+          "id": "d",
+          "text": "15"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Solving 4x+20=2(x+20) gives x=10.",
+      "subType": "Quant Math Ability",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "Find the value: (3^2 x 3^3) / 3^4",
+      "options": [
+        {
+          "id": "a",
+          "text": "1"
+        },
+        {
+          "id": "b",
+          "text": "3"
+        },
+        {
+          "id": "c",
+          "text": "9"
+        },
+        {
+          "id": "d",
+          "text": "27"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Using exponent rules: 3^(2+3-4)=3^1=3.",
+      "subType": "Quant Math Ability",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "A car covers a distance in 5 hours at 60 km/hr. What speed is required to cover the same distance in 4 hours?",
+      "options": [
+        {
+          "id": "a",
+          "text": "65"
+        },
+        {
+          "id": "b",
+          "text": "70"
+        },
+        {
+          "id": "c",
+          "text": "75"
+        },
+        {
+          "id": "d",
+          "text": "80"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Distance=300 km, so required speed=300/4=75 km/hr.",
+      "subType": "Quant Math Ability",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "If the price of an item increases by 20%, by what percentage should consumption be reduced to keep expenditure the same?",
+      "options": [
+        {
+          "id": "a",
+          "text": "15%"
+        },
+        {
+          "id": "b",
+          "text": "16.67%"
+        },
+        {
+          "id": "c",
+          "text": "20%"
+        },
+        {
+          "id": "d",
+          "text": "25%"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Reduction % = (20/120) x 100 = 16.67%.",
+      "subType": "Quant Math Ability",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "Find the missing number: 4, 9, 16, 25, 36, ?",
+      "options": [
+        {
+          "id": "a",
+          "text": "42"
+        },
+        {
+          "id": "b",
+          "text": "45"
+        },
+        {
+          "id": "c",
+          "text": "47"
+        },
+        {
+          "id": "d",
+          "text": "49"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "These are perfect squares; the next is 7^2=49.",
+      "subType": "Quant Math Ability",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "Two pipes A and B can fill a tank in 10 hours and 15 hours respectively. If both are opened together, how long will it take to fill the tank?",
+      "options": [
+        {
+          "id": "a",
+          "text": "5"
+        },
+        {
+          "id": "b",
+          "text": "6"
+        },
+        {
+          "id": "c",
+          "text": "7"
+        },
+        {
+          "id": "d",
+          "text": "8"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Combined rate=1/10+1/15=1/6, so time=6 hours.",
+      "subType": "Quant Math Ability",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "The sum of the first 20 natural numbers is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "200"
+        },
+        {
+          "id": "b",
+          "text": "205"
+        },
+        {
+          "id": "c",
+          "text": "210"
+        },
+        {
+          "id": "d",
+          "text": "220"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Sum = n(n+1)/2 = 20x21/2 = 210.",
+      "subType": "Quant Math Ability",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "A sells an article to B at a profit of 20% and B sells it to C at a profit of 10%. If C pays Rs. 264, find the cost price for A.",
+      "options": [
+        {
+          "id": "a",
+          "text": "180"
+        },
+        {
+          "id": "b",
+          "text": "190"
+        },
+        {
+          "id": "c",
+          "text": "200"
+        },
+        {
+          "id": "d",
+          "text": "220"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "264 = CP x 1.2 x 1.1 = CP x 1.32, so CP = 200.",
+      "subType": "Quant Math Ability",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "If 5 men can complete a job in 12 days, how many days will 6 men take?",
+      "options": [
+        {
+          "id": "a",
+          "text": "9"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "11"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Total work=5x12=60 man-days, so 6 men take 60/6=10 days.",
+      "subType": "Quant Math Ability",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "Find the value of the square root of 225.",
+      "options": [
+        {
+          "id": "a",
+          "text": "13"
+        },
+        {
+          "id": "b",
+          "text": "14"
+        },
+        {
+          "id": "c",
+          "text": "15"
+        },
+        {
+          "id": "d",
+          "text": "16"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "The square root of 225 is 15.",
+      "subType": "Quant Math Ability",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "A number is increased by 25% and then decreased by 20%. Find the net percentage change.",
+      "options": [
+        {
+          "id": "a",
+          "text": "0%"
+        },
+        {
+          "id": "b",
+          "text": "5% increase"
+        },
+        {
+          "id": "c",
+          "text": "5% decrease"
+        },
+        {
+          "id": "d",
+          "text": "10% increase"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "1.25 x 0.8 = 1.0, meaning there is no net change.",
+      "subType": "Quant Math Ability",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "The average of the first 10 odd numbers is:",
+      "options": [
+        {
+          "id": "a",
+          "text": "9"
+        },
+        {
+          "id": "b",
+          "text": "10"
+        },
+        {
+          "id": "c",
+          "text": "11"
+        },
+        {
+          "id": "d",
+          "text": "12"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "The sum of the first 10 odd numbers is 100, so the average is 10.",
+      "subType": "Quant Math Ability",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "A train running at 72 km/hr crosses a platform 250m long in 26 seconds. Find the length of the train.",
+      "options": [
+        {
+          "id": "a",
+          "text": "250"
+        },
+        {
+          "id": "b",
+          "text": "260"
+        },
+        {
+          "id": "c",
+          "text": "270"
+        },
+        {
+          "id": "d",
+          "text": "280"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Speed=20 m/s, distance covered=20x26=520m, so train length=520-250=270m.",
+      "subType": "Quant Math Ability",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "If A:B = 2:3 and B:C = 4:5, find A:B:C.",
+      "options": [
+        {
+          "id": "a",
+          "text": "8:12:15"
+        },
+        {
+          "id": "b",
+          "text": "2:3:5"
+        },
+        {
+          "id": "c",
+          "text": "6:9:15"
+        },
+        {
+          "id": "d",
+          "text": "4:6:9"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Scaling A:B and B:C to a common B value of 12 gives A:B:C = 8:12:15.",
+      "subType": "Quant Math Ability",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "Find the compound interest on Rs. 10000 for 1 year at 10% compounded half-yearly.",
+      "options": [
+        {
+          "id": "a",
+          "text": "1000"
+        },
+        {
+          "id": "b",
+          "text": "1025"
+        },
+        {
+          "id": "c",
+          "text": "1050"
+        },
+        {
+          "id": "d",
+          "text": "1100"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Rate per half-year=5%, amount=10000x1.05^2=11025, so CI=1025.",
+      "subType": "Quant Math Ability",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "The sum of three consecutive even numbers is 90. Find the largest number.",
+      "options": [
+        {
+          "id": "a",
+          "text": "28"
+        },
+        {
+          "id": "b",
+          "text": "30"
+        },
+        {
+          "id": "c",
+          "text": "32"
+        },
+        {
+          "id": "d",
+          "text": "34"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Let the numbers be x, x+2, x+4; 3x+6=90 gives x=28, so the largest is 32.",
+      "subType": "Quant Math Ability",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "A vessel contains milk and water in ratio 3:1. If 8 liters of water is added, the ratio becomes 3:2. Find the initial quantity of milk.",
+      "options": [
+        {
+          "id": "a",
+          "text": "18"
+        },
+        {
+          "id": "b",
+          "text": "20"
+        },
+        {
+          "id": "c",
+          "text": "24"
+        },
+        {
+          "id": "d",
+          "text": "27"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Let milk=3x, water=x; solving (x+8)/3x ratio gives x=8, so milk=24 liters.",
+      "subType": "Quant Math Ability",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "What is the compound interest formula for amount A, given Principal P, rate r%, and time n years?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A = P(1+r/100)^n"
+        },
+        {
+          "id": "b",
+          "text": "A = P(1+rn/100)"
+        },
+        {
+          "id": "c",
+          "text": "A = P+r*n"
+        },
+        {
+          "id": "d",
+          "text": "A = P*r^n"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "This is the standard compound interest formula.",
+      "subType": "Quant Math Ability",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "What is the value of x?\nStatement I: x + 5 = 12.\nStatement II: 2x = 14.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Statement I alone is sufficient, but Statement II alone is not"
+        },
+        {
+          "id": "b",
+          "text": "Statement II alone is sufficient, but Statement I alone is not"
+        },
+        {
+          "id": "c",
+          "text": "Both statements together are sufficient, but neither alone is sufficient"
+        },
+        {
+          "id": "d",
+          "text": "Either statement alone is sufficient"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Both statements independently give x=7.",
+      "subType": "Data Sufficiency",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "Is n divisible by 6?\nStatement I: n is divisible by 12.\nStatement II: n is divisible by 4.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Statement I alone is sufficient, but Statement II alone is not"
+        },
+        {
+          "id": "b",
+          "text": "Statement II alone is sufficient, but Statement I alone is not"
+        },
+        {
+          "id": "c",
+          "text": "Both statements together are sufficient, but neither alone is sufficient"
+        },
+        {
+          "id": "d",
+          "text": "Either statement alone is sufficient"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanation": "Divisible by 12 guarantees divisible by 6, but divisible by 4 alone does not.",
+      "subType": "Data Sufficiency",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "What is the area of a rectangle?\nStatement I: The length is 10cm.\nStatement II: The perimeter is 30cm.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Statement I alone is sufficient, but Statement II alone is not"
+        },
+        {
+          "id": "b",
+          "text": "Statement II alone is sufficient, but Statement I alone is not"
+        },
+        {
+          "id": "c",
+          "text": "Both statements together are sufficient, but neither alone is sufficient"
+        },
+        {
+          "id": "d",
+          "text": "Either statement alone is sufficient"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Length alone or perimeter alone isn't enough, but together they give breadth=5, area=50.",
+      "subType": "Data Sufficiency",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "Is x > y?\nStatement I: x + 3 > y + 3.\nStatement II: x - 2 > y - 2.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Statement I alone is sufficient, but Statement II alone is not"
+        },
+        {
+          "id": "b",
+          "text": "Statement II alone is sufficient, but Statement I alone is not"
+        },
+        {
+          "id": "c",
+          "text": "Both statements together are sufficient, but neither alone is sufficient"
+        },
+        {
+          "id": "d",
+          "text": "Either statement alone is sufficient"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Both statements simplify directly to x > y independently.",
+      "subType": "Data Sufficiency",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "What is the value of a two-digit number?\nStatement I: The number is a multiple of 9.\nStatement II: The number is between 50 and 60.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Statement I alone is sufficient, but Statement II alone is not"
+        },
+        {
+          "id": "b",
+          "text": "Statement II alone is sufficient, but Statement I alone is not"
+        },
+        {
+          "id": "c",
+          "text": "Both statements together are sufficient, but neither alone is sufficient"
+        },
+        {
+          "id": "d",
+          "text": "Either statement alone is sufficient"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Only when combined do the constraints narrow to a single number, 54.",
+      "subType": "Data Sufficiency",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "Is triangle ABC a right triangle?\nStatement I: One angle is 90 degrees.\nStatement II: The sides satisfy a^2 + b^2 = c^2.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Statement I alone is sufficient, but Statement II alone is not"
+        },
+        {
+          "id": "b",
+          "text": "Statement II alone is sufficient, but Statement I alone is not"
+        },
+        {
+          "id": "c",
+          "text": "Both statements together are sufficient, but neither alone is sufficient"
+        },
+        {
+          "id": "d",
+          "text": "Either statement alone is sufficient"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanation": "Each statement independently confirms a right triangle.",
+      "subType": "Data Sufficiency",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "What is the value of y?\nStatement I: y is a prime number less than 5.\nStatement II: y is an even number.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Statement I alone is sufficient, but Statement II alone is not"
+        },
+        {
+          "id": "b",
+          "text": "Statement II alone is sufficient, but Statement I alone is not"
+        },
+        {
+          "id": "c",
+          "text": "Both statements together are sufficient, but neither alone is sufficient"
+        },
+        {
+          "id": "d",
+          "text": "Either statement alone is sufficient"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Combined, the only even prime less than 5 is 2.",
+      "subType": "Data Sufficiency",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "How many employees are in the department?\nStatement I: The department has more than 10 but fewer than 15 employees.\nStatement II: The number of employees is a multiple of 4.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Statement I alone is sufficient, but Statement II alone is not"
+        },
+        {
+          "id": "b",
+          "text": "Statement II alone is sufficient, but Statement I alone is not"
+        },
+        {
+          "id": "c",
+          "text": "Both statements together are sufficient, but neither alone is sufficient"
+        },
+        {
+          "id": "d",
+          "text": "Either statement alone is sufficient"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Combined, the only multiple of 4 between 10 and 15 is 12.",
+      "subType": "Data Sufficiency",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "Is x positive?\nStatement I: x^2 = 16.\nStatement II: x^3 = -64.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Statement I alone is sufficient, but Statement II alone is not"
+        },
+        {
+          "id": "b",
+          "text": "Statement II alone is sufficient, but Statement I alone is not"
+        },
+        {
+          "id": "c",
+          "text": "Both statements together are sufficient, but neither alone is sufficient"
+        },
+        {
+          "id": "d",
+          "text": "Either statement alone is sufficient"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "Statement II gives a unique real cube root, x=-4, so x is negative; Statement I alone allows x=4 or -4.",
+      "subType": "Data Sufficiency",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "The table shows sales (units) of products P, Q, R over four months:\nJan: P=120, Q=90, R=150\nFeb: P=140, Q=100, R=130\nMar: P=160, Q=110, R=170\nApr: P=150, Q=120, R=160\n\nWhat is the total sales of product P over the four months?",
+      "options": [
+        {
+          "id": "a",
+          "text": "550"
+        },
+        {
+          "id": "b",
+          "text": "560"
+        },
+        {
+          "id": "c",
+          "text": "570"
+        },
+        {
+          "id": "d",
+          "text": "580"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "120+140+160+150=570.",
+      "subType": "Data Interpretation",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "The table shows sales (units) of products P, Q, R over four months:\nJan: P=120, Q=90, R=150\nFeb: P=140, Q=100, R=130\nMar: P=160, Q=110, R=170\nApr: P=150, Q=120, R=160\n\nIn which month was the total sales (P+Q+R) highest?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Jan"
+        },
+        {
+          "id": "b",
+          "text": "Feb"
+        },
+        {
+          "id": "c",
+          "text": "Mar"
+        },
+        {
+          "id": "d",
+          "text": "Apr"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Monthly totals: Jan=360, Feb=370, Mar=440, Apr=430; March is highest.",
+      "subType": "Data Interpretation",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "The table shows sales (units) of products P, Q, R over four months:\nJan: P=120, Q=90, R=150\nFeb: P=140, Q=100, R=130\nMar: P=160, Q=110, R=170\nApr: P=150, Q=120, R=160\n\nWhat is the percentage increase in sales of product Q from Jan to Apr?",
+      "options": [
+        {
+          "id": "a",
+          "text": "25%"
+        },
+        {
+          "id": "b",
+          "text": "30%"
+        },
+        {
+          "id": "c",
+          "text": "33.33%"
+        },
+        {
+          "id": "d",
+          "text": "40%"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "(120-90)/90 x 100 = 33.33%.",
+      "subType": "Data Interpretation",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "The table shows sales (units) of products P, Q, R over four months:\nJan: P=120, Q=90, R=150\nFeb: P=140, Q=100, R=130\nMar: P=160, Q=110, R=170\nApr: P=150, Q=120, R=160\n\nWhat is the average monthly sales of product R over the four months?",
+      "options": [
+        {
+          "id": "a",
+          "text": "145"
+        },
+        {
+          "id": "b",
+          "text": "150"
+        },
+        {
+          "id": "c",
+          "text": "152.5"
+        },
+        {
+          "id": "d",
+          "text": "155"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "(150+130+170+160)/4 = 152.5.",
+      "subType": "Data Interpretation",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "The table shows sales (units) of products P, Q, R over four months:\nJan: P=120, Q=90, R=150\nFeb: P=140, Q=100, R=130\nMar: P=160, Q=110, R=170\nApr: P=150, Q=120, R=160\n\nBy how many units did product P's sales exceed product Q's sales in March?",
+      "options": [
+        {
+          "id": "a",
+          "text": "40"
+        },
+        {
+          "id": "b",
+          "text": "45"
+        },
+        {
+          "id": "c",
+          "text": "50"
+        },
+        {
+          "id": "d",
+          "text": "55"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "160-110=50.",
+      "subType": "Data Interpretation",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "A company's annual budget of Rs. 20,00,000 is allocated as: Marketing 25%, R&D 30%, Operations 20%, HR 15%, Admin 10%.\n\nWhat is the amount allocated to R&D?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rs.4,00,000"
+        },
+        {
+          "id": "b",
+          "text": "Rs.5,00,000"
+        },
+        {
+          "id": "c",
+          "text": "Rs.6,00,000"
+        },
+        {
+          "id": "d",
+          "text": "Rs.7,00,000"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "30% of 20,00,000 = 6,00,000.",
+      "subType": "Data Interpretation",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "A company's annual budget of Rs. 20,00,000 is allocated as: Marketing 25%, R&D 30%, Operations 20%, HR 15%, Admin 10%.\n\nWhat is the combined amount allocated to HR and Admin?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rs.4,00,000"
+        },
+        {
+          "id": "b",
+          "text": "Rs.5,00,000"
+        },
+        {
+          "id": "c",
+          "text": "Rs.6,00,000"
+        },
+        {
+          "id": "d",
+          "text": "Rs.5,50,000"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "15%+10%=25% of 20,00,000 = 5,00,000.",
+      "subType": "Data Interpretation",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "A company's annual budget of Rs. 20,00,000 is allocated as: Marketing 25%, R&D 30%, Operations 20%, HR 15%, Admin 10%.\n\nHow much more is allocated to Marketing than to Operations?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Rs.50,000"
+        },
+        {
+          "id": "b",
+          "text": "Rs.1,00,000"
+        },
+        {
+          "id": "c",
+          "text": "Rs.1,50,000"
+        },
+        {
+          "id": "d",
+          "text": "Rs.2,00,000"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "25%-20%=5% of 20,00,000 = 1,00,000.",
+      "subType": "Data Interpretation",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "A company's annual budget of Rs. 20,00,000 is allocated as: Marketing 25%, R&D 30%, Operations 20%, HR 15%, Admin 10%.\n\nIf the R&D allocation is increased by 10 percentage points, what would be the new R&D percentage?",
+      "options": [
+        {
+          "id": "a",
+          "text": "35%"
+        },
+        {
+          "id": "b",
+          "text": "38%"
+        },
+        {
+          "id": "c",
+          "text": "40%"
+        },
+        {
+          "id": "d",
+          "text": "45%"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "30%+10%=40%.",
+      "subType": "Data Interpretation",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "A company's annual budget of Rs. 20,00,000 is allocated as: Marketing 25%, R&D 30%, Operations 20%, HR 15%, Admin 10%.\n\nWhat fraction of the total budget is allocated to Marketing and R&D combined?",
+      "options": [
+        {
+          "id": "a",
+          "text": "1/2"
+        },
+        {
+          "id": "b",
+          "text": "11/20"
+        },
+        {
+          "id": "c",
+          "text": "3/5"
+        },
+        {
+          "id": "d",
+          "text": "9/20"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanation": "25%+30%=55%=11/20.",
+      "subType": "Data Interpretation",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "The table shows student enrollment in 4 courses over two years:\nCourse A: Year1=200, Year2=250\nCourse B: Year1=150, Year2=180\nCourse C: Year1=300, Year2=280\nCourse D: Year1=100, Year2=140\n\nWhich course saw a decline in enrollment from Year1 to Year2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Course C dropped from 300 to 280.",
+      "subType": "Data Interpretation",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "The table shows student enrollment in 4 courses over two years:\nCourse A: Year1=200, Year2=250\nCourse B: Year1=150, Year2=180\nCourse C: Year1=300, Year2=280\nCourse D: Year1=100, Year2=140\n\nWhat is the total enrollment across all courses in Year2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "800"
+        },
+        {
+          "id": "b",
+          "text": "830"
+        },
+        {
+          "id": "c",
+          "text": "850"
+        },
+        {
+          "id": "d",
+          "text": "870"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "250+180+280+140=850.",
+      "subType": "Data Interpretation",
+      "difficulty": "hard"
+    },
+    {
+      "promptText": "The table shows student enrollment in 4 courses over two years:\nCourse A: Year1=200, Year2=250\nCourse B: Year1=150, Year2=180\nCourse C: Year1=300, Year2=280\nCourse D: Year1=100, Year2=140\n\nWhat is the percentage growth in enrollment for Course D from Year1 to Year2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "30%"
+        },
+        {
+          "id": "b",
+          "text": "35%"
+        },
+        {
+          "id": "c",
+          "text": "40%"
+        },
+        {
+          "id": "d",
+          "text": "45%"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "(140-100)/100 x 100 = 40%.",
+      "subType": "Data Interpretation",
+      "difficulty": "easy"
+    },
+    {
+      "promptText": "The table shows student enrollment in 4 courses over two years:\nCourse A: Year1=200, Year2=250\nCourse B: Year1=150, Year2=180\nCourse C: Year1=300, Year2=280\nCourse D: Year1=100, Year2=140\n\nWhich course had the highest enrollment in Year1?",
+      "options": [
+        {
+          "id": "a",
+          "text": "A"
+        },
+        {
+          "id": "b",
+          "text": "B"
+        },
+        {
+          "id": "c",
+          "text": "C"
+        },
+        {
+          "id": "d",
+          "text": "D"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Course C had 300 students in Year1, the highest.",
+      "subType": "Data Interpretation",
+      "difficulty": "medium"
+    },
+    {
+      "promptText": "The table shows student enrollment in 4 courses over two years:\nCourse A: Year1=200, Year2=250\nCourse B: Year1=150, Year2=180\nCourse C: Year1=300, Year2=280\nCourse D: Year1=100, Year2=140\n\nWhat was the overall percentage change in total enrollment from Year1 to Year2?",
+      "options": [
+        {
+          "id": "a",
+          "text": "10%"
+        },
+        {
+          "id": "b",
+          "text": "12%"
+        },
+        {
+          "id": "c",
+          "text": "13.33%"
+        },
+        {
+          "id": "d",
+          "text": "15%"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanation": "Year1 total=750, Year2 total=850, change=(850-750)/750 x 100=13.33%.",
+      "subType": "Data Interpretation",
+      "difficulty": "hard"
+    }
+  ]
+}

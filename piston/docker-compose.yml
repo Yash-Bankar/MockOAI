@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  piston:
+    image: ghcr.io/engineer-man/piston
+    container_name: piston_api
+    privileged: true
+    ports:
+      - "2000:2000"
+    volumes:
+      - piston_packages:/piston/packages
+    restart: unless-stopped
+    environment:
+      - PISTON_LOG_LEVEL=INFO
+
+volumes:
+  piston_packages:
+    name: piston_packages
