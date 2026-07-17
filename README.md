@@ -221,14 +221,20 @@ To confirm your local deployment is working correctly:
 5. Click **Submit Exam** at the top right.
 6. Verify that the **Results** dashboard loads successfully, showing a performance breakdown chart, detailed test case diagnostics, and an AI analysis card.
 
+## 🚀 Cloud Deployment
+
+The application is fully deployable to production for free! 
+* The **Next.js frontend** is hosted on **Vercel**.
+* The **Piston code execution engine** is hosted on a **Google Cloud Platform (GCP) Compute Engine VM** (staying within the E2-Micro "Always Free" tier).
+* The **Gemini API free tier** is used for generating questions and grading so go easy on it.
+
 ---
 
-## ⚠️ Known Limitations
+## ⚠️ Known Limitations (for local setup)
 
-* **Local-only setup**: Piston and Google OAuth redirect hooks are configured for `http://localhost:3000`. Deploying to production requires exposing the Piston sandbox port securely and updating redirect credentials.
-* **Docker requirement**: The coding section **requires** Docker to be running locally. If Docker or Piston is closed, running user code will fail with socket connection errors.
-* **Gemini rate limits**: Free-tier Gemini keys have strict rate limits (RPD caps). While the hybrid circuit breaker shields the app from crash loops, heavy multi-user utilization can temporarily exhaust the keys.
-* **Static mode limits**: If run entirely in static mode, questions will eventually repeat because the database utilizes a finite set of questions (60 MCQs per section, and 6 complex coding questions). But can switch to AI mode to avoid this.
+* **Sandbox Execution Engine**: The coding section requires the Piston sandbox server to be accessible. It must either run locally via Docker on port `2000`, or be hosted on a cloud VM (e.g. GCP) with its IP configured in the `PISTON_URL` environment variable. If the server is offline or unreachable, coding executions will return connectivity errors.
+* **Gemini rate limits**: If free-tier Gemini keys are used, they have strict rate limits (RPD caps). While the hybrid circuit breaker shields the app from crash loops, heavy multi-user utilization can temporarily exhaust your keys.
+* **Static mode limits**: If run entirely in static mode, questions will eventually repeat because the database utilizes a finite set of questions (60 MCQs per section, and 11 complex coding questions). Switch to AI/hybrid mode to get dynamically generated questions.
 
 ---
 
