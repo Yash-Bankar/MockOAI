@@ -200,18 +200,24 @@ export function CodingQuestion({
             <button 
               onClick={handleRun}
               disabled={isRunning || isSubmitting}
-              className="flex items-center gap-1.5 px-3 py-1 bg-gray-700 hover:bg-gray-600 text-gray-200 text-sm rounded transition-colors disabled:opacity-50"
+              className="flex items-center gap-1.5 px-3 py-1 bg-gray-700 hover:bg-gray-600 text-gray-200 text-sm rounded transition-colors disabled:opacity-50 min-w-[72px] justify-center"
             >
-              <Play className="w-3.5 h-3.5" />
-              Run
+              {isRunning ? (
+                <><span className="w-2 h-2 rounded-full bg-green-400 animate-pulse inline-block" />Running…</>
+              ) : (
+                <><Play className="w-3.5 h-3.5" />Run</>
+              )}
             </button>
             <button 
               onClick={handleSubmit}
               disabled={isRunning || isSubmitting}
-              className="flex items-center gap-1.5 px-3 py-1 bg-green-600 hover:bg-green-700 text-white text-sm rounded transition-colors disabled:opacity-50"
+              className="flex items-center gap-1.5 px-3 py-1 bg-green-600 hover:bg-green-700 text-white text-sm rounded transition-colors disabled:opacity-50 min-w-[88px] justify-center"
             >
-              <Send className="w-3.5 h-3.5" />
-              Submit
+              {isSubmitting ? (
+                <><span className="w-2 h-2 rounded-full bg-white animate-pulse inline-block" />Submitting…</>
+              ) : (
+                <><Send className="w-3.5 h-3.5" />Submit</>
+              )}
             </button>
           </div>
         </div>
@@ -234,43 +240,66 @@ export function CodingQuestion({
           />
         </div>
 
-        {/* Console Panel (shows if there are run results) */}
-        {runResults && (
+        {/* Console Panel: shows while executing OR when there are run results */}
+        {(isRunning || isSubmitting || runResults) && (
           <div className="h-1/3 min-h-[200px] border-t border-gray-800 bg-[#1e1e1e] flex flex-col">
             <div className="px-4 py-2 border-b border-gray-800 bg-[#252526] flex items-center justify-between">
-              <span className="text-gray-300 text-xs font-semibold">Test Results</span>
-              <button onClick={() => setRunResults(null)} className="text-gray-500 hover:text-gray-300 text-xs">Clear</button>
+              <span className="text-gray-300 text-xs font-semibold">
+                {isRunning ? "Running…" : isSubmitting ? "Submitting…" : "Test Results"}
+              </span>
+              {runResults && !isRunning && !isSubmitting && (
+                <button onClick={() => setRunResults(null)} className="text-gray-500 hover:text-gray-300 text-xs">Clear</button>
+              )}
             </div>
-            <div className="flex-1 overflow-y-auto p-4 space-y-4">
-              {runResults.map((res, i) => (
-                <div key={i} className="flex flex-col gap-2">
-                  <div className="flex items-center gap-2">
-                    {res.passed ? (
-                      <CheckCircle2 className="w-4 h-4 text-green-500" />
-                    ) : (
-                      <XCircle className="w-4 h-4 text-red-500" />
-                    )}
-                    <span className={`text-sm font-medium ${res.passed ? "text-green-400" : "text-red-400"}`}>
-                      Test Case {i + 1}
-                    </span>
-                  </div>
-                  <div className="bg-[#111111] border border-gray-800 rounded p-2 text-xs font-mono text-gray-300 whitespace-pre-wrap">
-                    <span className="text-gray-500 block mb-1">Input:</span>
-                    {res.input || "No input"}
-                  </div>
-                  <div className="bg-[#111111] border border-gray-800 rounded p-2 text-xs font-mono text-gray-300 whitespace-pre-wrap">
-                    <span className="text-gray-500 block mb-1">Actual Output:</span>
-                    {res.actualOutput || "No output"}
-                  </div>
-                  {!res.passed && res.expectedOutput && (
-                    <div className="bg-[#111111] border border-gray-800 rounded p-2 text-xs font-mono text-gray-300 whitespace-pre-wrap opacity-80">
-                      <span className="text-gray-500 block mb-1">Expected Output:</span>
-                      {res.expectedOutput}
-                    </div>
-                  )}
+
+            {/* Executing placeholder */}
+            {(isRunning || isSubmitting) && !runResults ? (
+              <div className="flex-1 flex flex-col items-center justify-center gap-3 text-gray-500">
+                <div className="flex gap-1.5 items-end">
+                  {[0, 1, 2].map((i) => (
+                    <span
+                      key={i}
+                      className="w-1.5 h-1.5 rounded-full bg-green-500 animate-bounce inline-block"
+                      style={{ animationDelay: `${i * 150}ms`, animationDuration: "700ms" }}
+                    />
+                  ))}
                 </div>
-              ))}
-            </div>
+                <span className="text-xs font-mono">
+                  {isRunning ? "Executing against visible test cases…" : "Grading against hidden test cases…"}
+                </span>
+              </div>
+            ) : (
+              <div className="flex-1 overflow-y-auto p-4 space-y-4">
+                {(runResults || []).map((res: any, i: number) => (
+                  <div key={i} className="flex flex-col gap-2">
+                    <div className="flex items-center gap-2">
+                      {res.passed ? (
+                        <CheckCircle2 className="w-4 h-4 text-green-500" />
+                      ) : (
+                        <XCircle className="w-4 h-4 text-red-500" />
+                      )}
+                      <span className={`text-sm font-medium ${res.passed ? "text-green-400" : "text-red-400"}`}>
+                        Test Case {i + 1}
+                      </span>
+                    </div>
+                    <div className="bg-[#111111] border border-gray-800 rounded p-2 text-xs font-mono text-gray-300 whitespace-pre-wrap">
+                      <span className="text-gray-500 block mb-1">Input:</span>
+                      {res.input || "No input"}
+                    </div>
+                    <div className="bg-[#111111] border border-gray-800 rounded p-2 text-xs font-mono text-gray-300 whitespace-pre-wrap">
+                      <span className="text-gray-500 block mb-1">Actual Output:</span>
+                      {res.actualOutput || "No output"}
+                    </div>
+                    {!res.passed && res.expectedOutput && (
+                      <div className="bg-[#111111] border border-gray-800 rounded p-2 text-xs font-mono text-gray-300 whitespace-pre-wrap opacity-80">
+                        <span className="text-gray-500 block mb-1">Expected Output:</span>
+                        {res.expectedOutput}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         )}
       </div>

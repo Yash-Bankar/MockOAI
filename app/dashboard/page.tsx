@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { getDashboardData, createExamAttempt } from "@/app/actions";
+import { getDashboardData } from "@/app/actions";
 import { Button, Card, Badge, GradeStamp } from "@/components/ui";
 import { AttemptStatus } from "@/app/generated/prisma/client";
+import { StartExamButton } from "./StartExamButton";
 
 export const dynamic = "force-dynamic";
 
@@ -74,11 +75,7 @@ export default async function DashboardPage() {
               every time so you can track real improvement.
             </p>
           </div>
-          <form action={createExamAttempt}>
-            <Button variant="primary" size="lg" type="submit">
-              Start New Mock OA
-            </Button>
-          </form>
+          <StartExamButton />
         </Card>
       </section>
 
