@@ -46,10 +46,10 @@ export function Charts({ sections }: ChartsProps) {
         <h3 className="font-bold text-lg mb-4 self-start border-b-2 border-black w-full pb-2">Skill Profile</h3>
         <div className="w-full h-[250px]">
           <ResponsiveContainer width="100%" height="100%">
-            <RadarChart cx="50%" cy="50%" outerRadius="70%" data={radarData}>
+            <RadarChart cx="50%" cy="50%" outerRadius="60%" data={radarData}>
               <PolarGrid stroke="#000" />
-              <PolarAngleAxis dataKey="subject" tick={{ fill: '#000', fontSize: 12, fontWeight: 'bold' }} />
-              <PolarRadiusAxis angle={30} domain={[0, 100]} stroke="#000" />
+              <PolarAngleAxis dataKey="subject" tick={{ fill: '#000', fontSize: 11, fontWeight: 'bold' }} />
+              <PolarRadiusAxis angle={30} domain={[0, 100]} tick={false} axisLine={false} />
               <Radar name="Score %" dataKey="A" stroke="#000" strokeWidth={3} fill="#00E676" fillOpacity={0.7} />
               <Tooltip
                 contentStyle={{ border: '2px solid black', borderRadius: 0, boxShadow: '4px 4px 0px rgba(0,0,0,1)' }}
@@ -69,7 +69,7 @@ export function Charts({ sections }: ChartsProps) {
               <CartesianGrid strokeDasharray="3 3" stroke="#ccc" />
               <XAxis dataKey="name" tick={{ fill: '#000', fontSize: 11, fontWeight: 'bold' }} interval={0} angle={-15} textAnchor="end" />
               <YAxis tick={{ fill: '#000', fontWeight: 'bold' }} />
-              <Tooltip 
+              <Tooltip
                 cursor={{ fill: 'rgba(0,0,0,0.05)' }}
                 contentStyle={{ border: '2px solid black', borderRadius: 0, boxShadow: '4px 4px 0px rgba(0,0,0,1)' }}
               />

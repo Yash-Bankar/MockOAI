@@ -58,7 +58,7 @@ export default async function ResultsPage(props: { params: Promise<{ attemptId: 
             <span className="block text-lg font-bold tracking-widest text-gray-500 mt-1">{attempt.pattern.name}</span>
           </h1>
           <div className="flex gap-4">
-            <Link 
+            <Link
               href="/dashboard"
               className="px-6 py-3 border-4 border-black bg-white font-bold uppercase tracking-widest shadow-[4px_4px_0px_rgba(0,0,0,1)] hover:translate-y-[2px] hover:translate-x-[2px] hover:shadow-[2px_2px_0px_rgba(0,0,0,1)] transition-all"
             >
@@ -67,9 +67,9 @@ export default async function ResultsPage(props: { params: Promise<{ attemptId: 
           </div>
         </div>
 
-        <ResultsHeader 
-          score={attempt.totalScore ?? 0} 
-          maxScore={attempt.maxScore} 
+        <ResultsHeader
+          score={attempt.totalScore ?? 0}
+          maxScore={attempt.maxScore}
           timeSpentSeconds={totalTimeSpent}
         />
 
@@ -79,7 +79,7 @@ export default async function ResultsPage(props: { params: Promise<{ attemptId: 
         <QuestionReview sections={attempt.sections} />
 
         <div className="mt-12 flex justify-center">
-          <Link 
+          <Link
             href="/dashboard"
             className="px-8 py-4 border-4 border-black bg-[#FFB800] font-black text-xl uppercase tracking-widest shadow-[8px_8px_0px_rgba(0,0,0,1)] hover:translate-y-[4px] hover:translate-x-[4px] hover:shadow-[4px_4px_0px_rgba(0,0,0,1)] transition-all"
           >

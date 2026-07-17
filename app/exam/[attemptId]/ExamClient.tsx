@@ -31,6 +31,13 @@ export function ExamClient({
   const [activeSectionIdx, setActiveSectionIdx] = useState(0);
   const [activeQuestionIdx, setActiveQuestionIdx] = useState(0);
   
+  const activeSectionIdxRef = useRef(activeSectionIdx);
+  const sectionTimesRef = useRef<Record<string, number>>({});
+
+  useEffect(() => {
+    activeSectionIdxRef.current = activeSectionIdx;
+  }, [activeSectionIdx]);
+  
   // Cache of fetched sections
   const [sectionsData, setSectionsData] = useState<Record<string, any>>({});
   const [loadingSection, setLoadingSection] = useState(false);
@@ -57,7 +64,12 @@ export function ExamClient({
       const remaining = Math.max(0, durationSeconds - elapsed);
       setTimeLeft(remaining);
       
-      if (remaining === 0) {
+      const currentSectionId = sections[activeSectionIdxRef.current]?.id;
+      if (currentSectionId) {
+        sectionTimesRef.current[currentSectionId] = (sectionTimesRef.current[currentSectionId] || 0) + 1;
+      }
+      
+      if (remaining <= 0) {
         clearInterval(interval);
         handleExamSubmit(true); // Auto-submit
       }
@@ -186,7 +198,7 @@ export function ExamClient({
       const completeRes = await fetch(`/api/exam/${attemptId}/complete`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({}),
+        body: JSON.stringify({ sectionTimes: sectionTimesRef.current }),
       });
 
       if (!completeRes.ok) {
@@ -232,7 +244,7 @@ export function ExamClient({
       <header className="flex-shrink-0 bg-white border-b border-[var(--exam-border)] flex items-center justify-between px-6 h-16 shadow-[var(--shadow-exam)] relative z-10">
         <div className="flex items-center gap-4 h-full">
           <div className="font-bold text-lg border-r border-[var(--exam-border)] pr-4 py-2">
-            Mock OA
+            MockOAI
           </div>
           {/* Section Tabs */}
           <nav className="flex items-center h-full space-x-1">

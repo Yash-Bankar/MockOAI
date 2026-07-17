@@ -8,7 +8,7 @@ interface ResultsHeaderProps {
 
 export function ResultsHeader({ score, maxScore, timeSpentSeconds }: ResultsHeaderProps) {
   const pct = maxScore > 0 ? (score / maxScore) * 100 : 0;
-  
+
   // Scoring Thresholds
   const isGreat = pct >= 80;
   const isGood = pct >= 50 && pct < 80;

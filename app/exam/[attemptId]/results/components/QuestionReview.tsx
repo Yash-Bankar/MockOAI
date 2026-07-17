@@ -27,15 +27,15 @@ export function QuestionReview({ sections }: QuestionReviewProps) {
               <span>Part {sIdx + 1}: {section.name}</span>
               <span>{section.scoreObtained ?? 0} / {section.maxScore} pts</span>
             </div>
-            
+
             <div className="p-0">
               {section.questions.map((q: any, qIdx: number) => {
                 const isExpanded = expandedQ === q.id;
                 const isCorrect = q.submission?.isCorrect;
-                
+
                 return (
                   <div key={q.id} className="border-b-2 border-black last:border-0">
-                    <button 
+                    <button
                       onClick={() => toggle(q.id)}
                       className={`w-full p-4 flex items-center justify-between hover:bg-gray-50 transition-colors ${isExpanded ? 'bg-gray-50' : ''}`}
                     >
@@ -93,16 +93,16 @@ export function QuestionReview({ sections }: QuestionReviewProps) {
                                 {q.submission?.aiFeedback || "No AI feedback generated."}
                               </div>
                             </div>
-                            
+
                             <div>
                               <h4 className="font-bold mb-2 uppercase text-xs tracking-widest text-gray-500">Test Case Results</h4>
                               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
-                                {Array.isArray(q.submission?.testCaseResults) 
+                                {Array.isArray(q.submission?.testCaseResults)
                                   ? q.submission?.testCaseResults.map((tc: any, idx: number) => (
-                                      <div key={idx} className={`p-2 border-2 border-black text-center font-bold ${tc.passed ? 'bg-[#00E676]' : 'bg-[#FF4081] text-white'}`}>
-                                        Test {idx + 1}: {tc.passed ? 'PASS' : 'FAIL'}
-                                      </div>
-                                    ))
+                                    <div key={idx} className={`p-2 border-2 border-black text-center font-bold ${tc.passed ? 'bg-[#00E676]' : 'bg-[#FF4081] text-white'}`}>
+                                      Test {idx + 1}: {tc.passed ? 'PASS' : 'FAIL'}
+                                    </div>
+                                  ))
                                   : (
                                     <>
                                       {(q.submission?.testCaseResults as any)?.visible?.map((tc: any, idx: number) => (
